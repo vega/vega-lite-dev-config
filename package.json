@@ -1,0 +1,16 @@
+{
+  "name": "vega-lite-dev-config",
+  "version": "0.1.0",
+  "description": "Version-controlled build config for easy re-use and sharing",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vega/vega-lite-dev-config.git"
+  },
+  "author": "Kanit (Ham) Wongsuphasawat",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/vega/vega-lite-dev-config/issues"
+  },
+  "homepage": "https://github.com/vega/vega-lite-dev-config#readme"
+}
