@@ -2,7 +2,6 @@
   "name": "vega-lite-dev-config",
   "version": "0.0.0",
   "description": "Version-controlled build config for easy re-use and sharing",
-  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vega/vega-lite-dev-config.git"
@@ -12,5 +11,26 @@
   "bugs": {
     "url": "https://github.com/vega/vega-lite-dev-config/issues"
   },
-  "homepage": "https://github.com/vega/vega-lite-dev-config#readme"
+  "homepage": "https://github.com/vega/vega-lite-dev-config#readme",
+  "dependencies": {
+    "@beemo/cli": "^1.0.0",
+    "@beemo/core": "^1.0.0",
+    "@beemo/driver-eslint": "^1.0.0",
+    "@beemo/driver-prettier": "^1.0.0",
+    "@beemo/driver-typescript": "^1.0.0",
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "prettier": "^1.17.1",
+    "typescript": "^3.5.1"
+  },
+  "beemo": {
+    "module": "@local",
+    "drivers": [
+      "prettier"
+    ]
+  },
+  "scripts": {
+    "prettier": "beemo prettier --write \"./configs/**/*.js\""
+  }
 }
