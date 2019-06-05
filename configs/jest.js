@@ -7,6 +7,5 @@ module.exports = {
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
   testPathIgnorePatterns: ['<rootDir>/dist/', '<rootDir>/node_modules/', '<rootDir>/build/'],
   coverageDirectory: './coverage/',
-  collectCoverage: true,
-  mapCoverage: true
+  collectCoverage: true
 };
