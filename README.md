@@ -21,7 +21,8 @@ This project is built with [🤖beemo](https://github.com/milesj/beemo), and the
     "drivers": [
       "eslint",
       "prettier",
-      "typescript"
+      "typescript",
+      "jest"
     ]
   }
 }
