@@ -41,8 +41,8 @@ You may define these commands as scripts in your package.json:
 {
   "scripts": {
     "prepare": "beemo create-config --silent",
-    "prettierbase": "beemo prettier '{src,test,typings}/**/*.{ts,js,md,css}'",
-    "eslintbase": "beemo eslint '{src,test,typings}/**/*.{ts,js}'",
+    "prettierbase": "beemo prettier '{src,test,typings}/**/*.{md,css}' # eslint takes care of tsx?/jsx?",
+    "eslintbase": "beemo eslint '{src,test,typings}/**/*.{tsx?,jsx?}'",
     "format": "npm run eslintbase -- --fix && npm run prettierbase -- --write",
     "lint": "npm run eslintbase && npm run prettierbase -- --check",
     "tsc": "beemo typescript"
