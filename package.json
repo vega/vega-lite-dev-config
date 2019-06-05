@@ -33,6 +33,7 @@
     ]
   },
   "scripts": {
+    "prepare": "beemo create-config --silent",
     "prettier": "beemo prettier --write \"./configs/**/*.js\""
   }
 }
