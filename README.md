@@ -39,10 +39,12 @@ You may define these commands as scripts in your package.json:
 // package.json
 {
   "scripts": {
-    "prepare": "beemo create-config --silent"
-    "eslint": "beemo eslint ./src ./test",
-    "prettier": "beemo prettier --write \"./{src,test}/**/*.{ts,js,json,md}\"",
-    "tsc": "beemo typescript""
+    "prepare": "beemo create-config --silent",
+    "prettierbase": "beemo prettier '{src,test,typings}/**/*.{ts,js,md,css}'",
+    "eslintbase": "beemo eslint '{src,test,typings}/**/*.{ts,js}'",
+    "format": "npm run eslintbase -- --fix && npm run prettierbase -- --write",
+    "lint": "npm run eslintbase && npm run prettierbase -- --check",
+    "tsc": "beemo typescript"
   }
 }
 ```
