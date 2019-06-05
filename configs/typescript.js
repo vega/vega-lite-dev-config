@@ -4,6 +4,8 @@ module.exports = {
     module: 'es2015',
     moduleResolution: 'node',
 
+    outDir: './build/',
+
     declaration: true,
     declarationMap: true,
     sourceMap: true,
