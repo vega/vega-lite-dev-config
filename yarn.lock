@@ -9,7 +9,7 @@
   dependencies:
     "@babel/highlight" "^7.0.0"
 
-"@babel/core@^7.1.0":
+"@babel/core@^7.1.0", "@babel/core@^7.4.5":
   version "7.4.5"
   resolved "https://registry.yarnpkg.com/@babel/core/-/core-7.4.5.tgz#081f97e8ffca65a9b4b0fdc7e274e703f000c06a"
   integrity sha512-OvjIh6aqXtlsA8ujtGKfC7LYWksYSX8yQcM8Ay3LuvVeQ63lcOKgoZWVqcpFwkd29aYU9rVx7jxhfhiEDV9MZA==
@@ -179,6 +179,13 @@
   version "1.0.0"
   resolved "https://npm.apple.com/@beemo/dependency-graph/-/dependency-graph-1.0.0.tgz#4e37fca5235f352d176939514ff9d9fe7a55a7bd"
   integrity sha1-Tjf8pSNfNS0XaTlRT/nZ/npVp70=
+
+"@beemo/driver-babel@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@beemo/driver-babel/-/driver-babel-1.0.0.tgz#3c2d42b54d1661ac5c372912d8b8982d09abc4c0"
+  integrity sha512-rOvxqDGtPZEvfauhATpH2xwtCefVTiInJlGTb8ezE7zF9lr8kMFkkUL5wjWsetC2ZVeUNJqcbJYVPtUOGipRgA==
+  dependencies:
+    rimraf "^2.6.3"
 
 "@beemo/driver-eslint@^1.0.0":
   version "1.0.0"
