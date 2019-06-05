@@ -23,8 +23,10 @@
     "eslint": "^5.16.0",
     "eslint-config-prettier": "^4.3.0",
     "eslint-plugin-prettier": "^3.1.0",
-    "prettier": "^1.17.1",
-    "typescript": "^3.4.5"
+    "prettier": "^1.17.1"
+  },
+  "peerDependencies": {
+    "typescript": "^3"
   },
   "beemo": {
     "module": "@local",
