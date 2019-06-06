@@ -24,6 +24,6 @@ module.exports = {
     removeComments: false,
     resolveJsonModule: true,
     suppressImplicitAnyIndexErrors: true,
-    typeRoots: ['node_modules/@types', 'typings']
+    typeRoots: ['node_modules/@types', 'types']
   }
 };
