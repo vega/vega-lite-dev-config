@@ -9,12 +9,13 @@ module.exports = {
     declaration: true,
     declarationMap: true,
     sourceMap: true,
-
     esModuleInterop: true,
+
     allowSyntheticDefaultImports: true,
     inlineSources: true,
     importHelpers: true,
     isolatedModules: false,
+    jsx: 'react',
     noImplicitAny: true,
     noImplicitReturns: true,
     noImplicitThis: true,
