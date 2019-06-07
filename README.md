@@ -19,11 +19,20 @@ This project is built with [🤖beemo](https://github.com/milesj/beemo), and the
   "beemo": {
     "module": "",
     "drivers": [
-      "eslint",
+      "babel",
       "prettier",
-      "typescript",
-      "jest"
-    ]
+      "eslint",
+      "jest",
+      {
+        "driver": "typescript",
+        "buildFolder": "build"
+      }
+    ],
+    "jest": { // you can augment generated config
+      "transformIgnorePatterns": [
+        "<rootDir>/node_modules/(?!(vega-lite/))"
+      ]
+    }
   }
 }
 ```
@@ -40,14 +49,22 @@ You may define these commands as scripts in your package.json:
 // package.json
 {
   "scripts": {
-    "prepare": "beemo create-config --silent",
-    "prettierbase": "beemo prettier '{src,test,typings}/**/*.{md,css}' # eslint takes care of tsx?/jsx?",
-    "eslintbase": "beemo eslint '{src,test,typings}/**/*.{tsx?,jsx?}'",
+    "prepare": "beemo create-config --react", // Remove --react if you do not use React
+    "prettierbase": "beemo prettier '{src,test,types,stories}/**/*.{md,css}' # eslint takes care of tsx?/jsx?",
+    "eslintbase": "beemo eslint '{src,test,types,stories}/**/*.{tsx?,jsx?}'",
     "format": "npm run eslintbase -- --fix && npm run prettierbase -- --write",
     "lint": "npm run eslintbase && npm run prettierbase -- --check",
-    "tsc": "beemo typescript"
+    "tsc": "beemo typescript",
+    "tsc:watch": "yarn run tsc --watch"
   }
 }
+```
+
+or for monorepo, you may want to include `./packages/*/` in the path:
+
+```
+"prettierbase": "beemo prettier './packages/*/{src,test,typings}/**/*.{md,css}' # eslint takes care of tsx?/jsx?",
+"eslintbase": "beemo eslint './packages/*/{src,test,typings}/**/*.{tsx?,jsx?}'",
 ```
 
 ### Acknowledgement
