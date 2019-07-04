@@ -5,10 +5,10 @@ Version-controlled build config for easy re-use and sharing using Beemo.
 ## Install
 
 ```
-npm install --save-dev @superset-ui/build-config
+yarn add vega-lite-dev-config
 ```
 
-Before leveraging the build config provided you should remove any older dependencies or config files for the drivers you intend to use (e.g., remove `eslint` and `.eslintrc`). `@superset-ui/build-config` will handle these dependencies, and it will _auto-generate the config files for you_.
+Before leveraging the build config provided you should remove any older dependencies or config files for the drivers you intend to use (e.g., remove `eslint` and `.eslintrc`). `vega-lite-dev-config` will handle these dependencies, and it will _auto-generate the config files for you_.
 
 ## Using drivers
 

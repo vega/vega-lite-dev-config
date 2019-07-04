@@ -28,5 +28,6 @@ module.exports = {
     incremental: true,
 
     typeRoots: ['node_modules/@types', 'types']
-  }
+  },
+  files: ['src/index.ts']
 };
