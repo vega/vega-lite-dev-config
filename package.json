@@ -13,8 +13,8 @@
   },
   "homepage": "https://github.com/vega/vega-lite-dev-config#readme",
   "dependencies": {
-    "@babel/core": "^7.4.5",
-    "@babel/preset-env": "^7.4.5",
+    "@babel/core": "^7.5.0",
+    "@babel/preset-env": "^7.5.0",
     "@beemo/cli": "^1.0.1",
     "@beemo/core": "^1.0.2",
     "@beemo/driver-babel": "^1.0.1",
