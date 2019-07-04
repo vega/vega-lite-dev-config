@@ -1,5 +1,7 @@
 # vega-lite-dev-config
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/vega/vega-lite-dev-config.svg)](https://greenkeeper.io/)
+
 Version-controlled build config for easy re-use and sharing using Beemo.
 
 ## Install
