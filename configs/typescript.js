@@ -25,5 +25,6 @@ module.exports = {
     resolveJsonModule: true,
     suppressImplicitAnyIndexErrors: true,
     typeRoots: ['node_modules/@types', 'types']
-  }
+  },
+  files: ['src/index.ts']
 };
