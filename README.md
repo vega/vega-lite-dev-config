@@ -1,5 +1,7 @@
 # vega-lite-dev-config
 
+[![Build Status](https://travis-ci.com/vega/vega-lite-dev-config.svg?branch=master)](https://travis-ci.com/vega/vega-lite-dev-config)
+
 Version-controlled build config for easy re-use and sharing using Beemo.
 
 ## Install
