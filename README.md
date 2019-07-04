@@ -1,6 +1,8 @@
 # vega-lite-dev-config
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/vega/vega-lite-dev-config.svg)](https://greenkeeper.io/)
+[![Build Status](https://travis-ci.com/vega/vega-lite-dev-config.svg?branch=master)](https://travis-ci.com/vega/vega-lite-dev-config)
+
 
 Version-controlled build config for easy re-use and sharing using Beemo.
 
@@ -71,4 +73,4 @@ or for monorepo, you may want to include `./packages/*/` in the path:
 
 ### Acknowledgement
 
-This README is adapted from [`@superset-ui/build-config`](https://github.com/apache-superset/build-config)).
+This README is adapted from [`@superset-ui/build-config`](https://github.com/apache-superset/build-config).

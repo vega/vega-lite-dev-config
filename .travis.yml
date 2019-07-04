@@ -1,4 +1,14 @@
 language: node_js
+node_js:
+- '12'
 script:
 - yarn lint
 cache: yarn
+deploy:
+  provider: npm
+  email: domoritz@gmail.com
+  api_key:
+    secure: ucF76B56E4OpkqGjBXi8XKpxZI2D2YWYlwkL9UPJh/SasYWYxCMCqsUgq8NYhm49ubszsP5LI4rtei3ltCiN8T+rgCYDCHCoe3jec3WRsukvf6fdSvMbVtcc2TX/jUY4m6njAFh6DpJkDN6l99CeRDm2CYgE7dZ1XU15DsRH5SA2WIiJZ/gjGFwknQjjUzQl9vc9NOvOTsGhWROa6/tB+DP46O6IoO2K5sEmuCiyqySVx33bfWkC+xARdQqXws2qUCWFKXrIw/Dezlb9ZbV3EvTvVg955R1BuPUPUbZYe64+Hu8pt8s1McIZNSfrYl5fvNnlf+U2e8pUZlQgCSSkK2i1GHUIpTJ/ylfuGp8YD50qklSwFHAt9uZOWLdDN2hbN64s1eHElx/MKndJOc6LoosZP+9zsdb4+PmTVY8Vff0DEYt/FqLCT+rb24yj+bbf/V2R2wCSgO2PY4x43ENFBLMPM+pTHtnoCHP29/CSwnood35Y/vq/a0TYhN13BBfCUSoDKAZ5cFLLLbVGzXv8zED3BovtiGh8VuPJxvGOY4nOBJwBdtWXLDYDlRoWOLHazhM/du7jFYdOTYj53UHAZ7vzI2ADsghfsx/sVs0FnWxKFglqS7KE33cLRBBuOzT9Hyoo7OAydvoUQlPafqeDOdplTi3EzJEKSEUoQVsaST4=
+  on:
+    tags: true
+    repo: vega/vega-lite-dev-config
