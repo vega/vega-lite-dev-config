@@ -71,4 +71,4 @@ or for monorepo, you may want to include `./packages/*/` in the path:
 
 ### Acknowledgement
 
-This README is adapted from [`@superset-ui/build-config`](https://github.com/apache-superset/build-config)).
+This README is adapted from [`@superset-ui/build-config`](https://github.com/apache-superset/build-config).
