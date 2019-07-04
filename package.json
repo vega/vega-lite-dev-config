@@ -45,6 +45,7 @@
   },
   "scripts": {
     "prepare": "beemo create-config --silent",
-    "prettier": "beemo prettier --write \"./configs/**/*.js\""
+    "lint": "beemo prettier --check \"./configs/**/*.js\"",
+    "format": "beemo prettier --write \"./configs/**/*.js\""
   }
 }
