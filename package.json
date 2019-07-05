@@ -37,6 +37,11 @@
   "peerDependencies": {
     "typescript": "^3"
   },
+  "greenkeeper": {
+    "ignore": [
+      "eslint"
+    ]
+  },
   "beemo": {
     "module": "@local",
     "drivers": [
