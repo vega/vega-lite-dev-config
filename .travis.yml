@@ -5,6 +5,7 @@ script:
 - yarn lint
 cache: yarn
 deploy:
+  skip_cleanup: true
   provider: npm
   email: domoritz@gmail.com
   api_key:
