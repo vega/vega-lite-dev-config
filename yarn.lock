@@ -709,11 +709,11 @@
     utility-types "^3.7.0"
 
 "@beemo/driver-prettier@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@beemo/driver-prettier/-/driver-prettier-1.0.2.tgz#7329015ed05dab4fdcbeb5fdb316703bfea189aa"
-  integrity sha512-wECpIt0vMp0Bqw0QYyyIPW89kqFmIPHAaMUGlXWQ3zFfMT83NGhU4wv3aJXdsgcmFu8z3d4vYnnXmkuqZecqwg==
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@beemo/driver-prettier/-/driver-prettier-1.0.3.tgz#18c161be5a1f68865f2c60e1a81171b9a386bb40"
+  integrity sha512-jf0RiQv1/yUkK4mRSkFXdjGz+9FSFj85mihDDPm5I9en62ng5u7MrKHz3Un4DiYZj88JGt3bptJe5C9QyQXuvA==
   dependencies:
-    "@boost/event" "^1.0.2"
+    "@boost/event" "^1.1.0"
     "@types/prettier" "*"
 
 "@beemo/driver-typescript@^1.1.0":
