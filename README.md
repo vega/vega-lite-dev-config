@@ -1,6 +1,5 @@
 # vega-lite-dev-config
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/vega/vega-lite-dev-config.svg)](https://greenkeeper.io/)
 [![Build Status](https://travis-ci.com/vega/vega-lite-dev-config.svg?branch=master)](https://travis-ci.com/vega/vega-lite-dev-config)
 [![npm version](https://img.shields.io/npm/v/vega-lite-dev-config.svg)](https://www.npmjs.com/package/vega-lite-dev-config)
 
