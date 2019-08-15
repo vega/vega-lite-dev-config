@@ -709,11 +709,11 @@
     utility-types "^3.7.0"
 
 "@beemo/driver-prettier@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@beemo/driver-prettier/-/driver-prettier-1.0.2.tgz#7329015ed05dab4fdcbeb5fdb316703bfea189aa"
-  integrity sha512-wECpIt0vMp0Bqw0QYyyIPW89kqFmIPHAaMUGlXWQ3zFfMT83NGhU4wv3aJXdsgcmFu8z3d4vYnnXmkuqZecqwg==
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@beemo/driver-prettier/-/driver-prettier-1.0.3.tgz#18c161be5a1f68865f2c60e1a81171b9a386bb40"
+  integrity sha512-jf0RiQv1/yUkK4mRSkFXdjGz+9FSFj85mihDDPm5I9en62ng5u7MrKHz3Un4DiYZj88JGt3bptJe5C9QyQXuvA==
   dependencies:
-    "@boost/event" "^1.0.2"
+    "@boost/event" "^1.1.0"
     "@types/prettier" "*"
 
 "@beemo/driver-typescript@^1.1.0":
@@ -783,10 +783,20 @@
     debug "^4.1.1"
     execa "^2.0.2"
 
-"@boost/event@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@boost/event/-/event-1.0.2.tgz#00d15640d3ca2951bc8659ba5ead9bea3f00fecb"
-  integrity sha512-zUeNxf6gwUfbNZ7/8oCN+5laCUrtd3jU04Ms4XflvB4OHoehLP4F1cBwNZr3Q1sOxL7qwG1hb3gDZHeaa1pCzA==
+"@boost/event@^1.0.2", "@boost/event@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@boost/event/-/event-1.1.0.tgz#4c533b35ca803fb44af9614811484611957d80f9"
+  integrity sha512-tGHzfB8vWh/sZXD5kcDbcbatOv7JBQFLEqtKfRJgVFOQN4RQnXG5ZNtjoYIqai8+7+HnS4ewRdfNDxBcbVC2mg==
+  dependencies:
+    "@boost/internal" "^1.0.0"
+
+"@boost/internal@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@boost/internal/-/internal-1.0.0.tgz#474ea57ff363a1a9d6792b56a97f75d70e073ffa"
+  integrity sha512-u/VQrSW8MbRaVKXMI0NR8Q2dlJB8a7lU719gt2MbNco++IeD4Q66U/E84vD+kD4XzaYntYWCEMF2GF0tA1ap3g==
+  dependencies:
+    chalk "^2.4.2"
+    debug "^4.1.1"
 
 "@boost/log@^1.0.2":
   version "1.0.2"
