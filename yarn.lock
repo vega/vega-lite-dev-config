@@ -687,9 +687,9 @@
   integrity sha512-ATco1JiZX+B+J5BdEmMGKPcnrjebOAV1TIe/r1VAydnGTSQLbmqt7H/QAG1+VfPlWB8k+bRBOAiw3HjTTleemg==
 
 "@beemo/driver-babel@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@beemo/driver-babel/-/driver-babel-1.0.2.tgz#1cf8a01ec10f587b8fb524593be4f704d9353ceb"
-  integrity sha512-xA4+YmmtCN3j6WUQhDdU2fbapMuaXDwss1LAHzYl9ZLr/y8BPZPLQ2fJHWWe2Cjazf6k7xOYuacJ9dDRgAu8/w==
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@beemo/driver-babel/-/driver-babel-1.0.3.tgz#f30fb17dbefe25f44d7a34013a856120ab0f472b"
+  integrity sha512-9z2F3/p4fDBdh+Ls6HoLY8cRLgO2ELHSEIoV3VfdJeU7KyprWlQibHLAXvxMx71U9jFt+iekVy3cCmHGXVKVeg==
   dependencies:
     rimraf "^2.6.3"
 
