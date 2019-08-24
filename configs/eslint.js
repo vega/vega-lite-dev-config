@@ -11,7 +11,7 @@ module.exports = {
     'plugin:prettier/recommended',
     ...(context.args.react ? ['plugin:react/recommended'] : [])
   ],
-  ...(context.args.react ? {settings: {react: {version: "detect"}}} : {}),
+  ...(context.args.react ? {settings: {react: {version: 'detect'}}} : {}),
   env: {
     browser: true,
     node: true
