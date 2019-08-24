@@ -6,33 +6,40 @@
     "type": "git",
     "url": "git+https://github.com/vega/vega-lite-dev-config.git"
   },
-  "author": "Kanit (Ham) Wongsuphasawat",
+  "author": "Kanit \"Ham\" Wongsuphasawat, Dominik Moritz",
+  "collaborators": [
+    "Kanit Wongsuphasawat <kanitw@gmail.com> (http://kanitw.yellowpigz.com)",
+    "Dominik Moritz <domoritz@cs.washington.edu> (https://www.domoritz.de)"
+  ],
   "license": "BSD-3-Clause",
   "bugs": {
     "url": "https://github.com/vega/vega-lite-dev-config/issues"
   },
   "homepage": "https://github.com/vega/vega-lite-dev-config#readme",
   "dependencies": {
-    "@babel/core": "^7.5.4",
-    "@babel/preset-env": "^7.5.4",
-    "@beemo/cli": "^1.0.2",
-    "@beemo/core": "^1.0.3",
-    "@beemo/driver-babel": "^1.0.2",
-    "@beemo/driver-eslint": "^1.0.3",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@beemo/cli": "^1.0.3",
+    "@beemo/core": "^1.0.5",
+    "@beemo/driver-babel": "^1.0.3",
+    "@beemo/driver-eslint": "^1.0.5",
     "@beemo/driver-jest": "^1.0.2",
-    "@beemo/driver-prettier": "^1.0.2",
-    "@beemo/driver-typescript": "^1.1.0",
-    "@types/jest": "^24.0.15",
-    "@typescript-eslint/eslint-plugin": "^1.12.0",
-    "@typescript-eslint/parser": "^1.12.0",
-    "babel-jest": "^24.8.0",
-    "eslint": "^5.16.0",
-    "eslint-config-prettier": "^6.0.0",
+    "@beemo/driver-prettier": "^1.0.3",
+    "@beemo/driver-typescript": "^1.1.2",
+    "@types/jest": "^24.0.18",
+    "@typescript-eslint/eslint-plugin": "^2.0.0",
+    "@typescript-eslint/parser": "^2.0.0",
+    "babel-jest": "^24.9.0",
+    "eslint": "^6.2.2",
+    "eslint-config-prettier": "^6.1.0",
     "eslint-plugin-prettier": "^3.1.0",
-    "eslint-plugin-react": "^7.14.2",
-    "jest": "^24.8.0",
+    "eslint-plugin-react": "^7.14.3",
+    "jest": "^24.9.0",
     "prettier": "^1.18.2",
     "ts-jest": "^24.0.2"
+  },
+  "devDependencies": {
+    "typescript": "^3.5.3"
   },
   "peerDependencies": {
     "typescript": "^3"
