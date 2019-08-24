@@ -1,23 +1,14 @@
 module.exports = {
   printWidth: 120,
-  singleQuote: true,
-  bracketSpacing: false,
-  arrowParens: 'avoid',
-  trailingComma: 'none',
   proseWrap: 'never',
   overrides: [
     {
-      files: ['*.css', '*.scss'],
+      files: '*.{js,jsx,ts,tsx}',
       options: {
-        singleQuote: false
-      }
-    },
-    {
-      files: ['*.html'],
-      options: {
-        singleQuote: false
+        bracketSpacing: false,
+        singleQuote: true
       }
     }
   ],
-  ignore: ['.eslintrc.js', 'prettier.config.js']
+  ignore: ['.eslintrc.js', 'prettier.config.js', '.prettierrc.js']
 };
