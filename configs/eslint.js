@@ -8,7 +8,8 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'prettier',
     'prettier/@typescript-eslint',
-    ...(context.args.react ? ['plugin:prettier/recommended', 'plugin:react/recommended'] : [])
+    'plugin:prettier/recommended',
+    ...(context.args.react ? ['plugin:react/recommended'] : [])
   ],
   env: {
     browser: true,
