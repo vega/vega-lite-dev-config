@@ -11,6 +11,7 @@ module.exports = {
     'plugin:prettier/recommended',
     ...(context.args.react ? ['plugin:react/recommended'] : [])
   ],
+  ...(context.args.react ? {settings: {react: {version: "detect"}}} : {}),
   env: {
     browser: true,
     node: true
@@ -18,7 +19,8 @@ module.exports = {
   parserOptions: {
     project: 'tsconfig.json',
     ecmaVersion: 2018, // Allows for the parsing of modern ECMAScript features
-    sourceType: 'module' // Allows for the use of imports
+    sourceType: 'module', // Allows for the use of imports
+    ...(context.args.react ? {jsx: true} : {})
   },
   rules: {
     'prettier/prettier': 'warn',
