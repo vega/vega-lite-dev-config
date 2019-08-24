@@ -1,14 +1,21 @@
 module.exports = {
+  printWidth: 120,
+  singleQuote: true,
+  bracketSpacing: false,
+  arrowParens: 'avoid',
+  trailingComma: 'none',
+  proseWrap: 'never',
   overrides: [
     {
-      files: '*',
+      files: ['*.css', '*.scss'],
       options: {
-        printWidth: 120,
-        singleQuote: true,
-        bracketSpacing: false,
-        arrowParens: 'avoid',
-        trailingComma: 'none',
-        proseWrap: 'never'
+        singleQuote: false
+      }
+    },
+    {
+      files: ['*.html'],
+      options: {
+        singleQuote: false
       }
     }
   ],
