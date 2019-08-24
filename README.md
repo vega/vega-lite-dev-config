@@ -9,7 +9,7 @@ Version-controlled build config for easy re-use and sharing using Beemo.
 ## Install
 
 ```
-yarn add vega-lite-dev-config
+yarn add --dev vega-lite-dev-config
 ```
 
 Before leveraging the build config provided you should remove any older dependencies or config files for the drivers you intend to use (e.g., remove `eslint` and `.eslintrc`). `vega-lite-dev-config` will handle these dependencies, and it will _auto-generate the config files for you_.
@@ -54,21 +54,21 @@ You may define these commands as scripts in your package.json:
 {
   "scripts": {
     "prepare": "beemo create-config --react", // Remove --react if you do not use React
-    "prettierbase": "beemo prettier '{src,test,types,stories}/**/*.{md,css}' # eslint takes care of tsx?/jsx?",
-    "eslintbase": "beemo eslint '{src,test,types,stories}/**/*.{tsx?,jsx?}'",
-    "format": "npm run eslintbase -- --fix && npm run prettierbase -- --write",
-    "lint": "npm run eslintbase && npm run prettierbase -- --check",
+    "prettierbase": "beemo prettier '{src,test,types}/**/*.{md,css}' # eslint takes care of tsx?/jsx?",
+    "eslintbase": "beemo eslint '{src,test,types}/**/*.{tsx?,jsx?}'",
+    "format": "yarn eslintbase --fix && yarn prettierbase --write",
+    "lint": "yarn eslintbase && yarn prettierbase --check",
     "tsc": "beemo typescript",
     "tsc:watch": "yarn run tsc --watch"
   }
 }
 ```
 
-or for monorepo, you may want to include `./packages/*/` in the path:
+or for a monorepo, you may want to include `./packages/*/` in the path:
 
 ```
-"prettierbase": "beemo prettier './packages/*/{src,test,typings}/**/*.{md,css}' # eslint takes care of tsx?/jsx?",
-"eslintbase": "beemo eslint './packages/*/{src,test,typings}/**/*.{tsx?,jsx?}'",
+"prettierbase": "beemo prettier './packages/*/{src,test,types}/**/*.{md,css}' # eslint takes care of tsx?/jsx?",
+"eslintbase": "beemo eslint './packages/*/{src,test,types}/**/*.{tsx?,jsx?}'",
 ```
 
 ### Acknowledgement
