@@ -1,4 +1,5 @@
 .prettierignore
+.travis.yml
 beemo-error.log
 node_modules
 prettier.config.js
