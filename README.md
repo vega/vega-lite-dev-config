@@ -55,7 +55,7 @@ You may define these commands as scripts in your package.json:
   "scripts": {
     "prepare": "beemo create-config --react", // Remove --react if you do not use React
     "prettierbase": "beemo prettier '{src,test,types}/**/*.{md,css}' # eslint takes care of tsx?/jsx?",
-    "eslintbase": "beemo eslint '{src,test,types}/**/*.{tsx?,jsx?}'",
+    "eslintbase": "beemo eslint '{src,test,types}/**/*.{ts,tsx,js,jsx}'",
     "format": "yarn eslintbase --fix && yarn prettierbase --write",
     "lint": "yarn eslintbase && yarn prettierbase --check",
     "tsc": "beemo typescript",
@@ -68,7 +68,7 @@ or for a monorepo, you may want to include `./packages/*/` in the path:
 
 ```
 "prettierbase": "beemo prettier './packages/*/{src,test,types}/**/*.{md,css}' # eslint takes care of tsx?/jsx?",
-"eslintbase": "beemo eslint './packages/*/{src,test,types}/**/*.{tsx?,jsx?}'",
+"eslintbase": "beemo eslint './packages/*/{src,test,types}/**/*.{ts,tsx,js,jsx}'",
 ```
 
 ### Acknowledgement
