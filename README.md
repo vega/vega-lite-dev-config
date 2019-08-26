@@ -21,7 +21,7 @@ This project is built with [🤖beemo](https://github.com/milesj/beemo), and the
 ```
 {
   "beemo": {
-    "module": "",
+    "module": "vega-lite-dev-config",
     "drivers": [
       "babel",
       "prettier",
