@@ -646,13 +646,13 @@
     to-fast-properties "^2.0.0"
 
 "@beemo/cli@^1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@beemo/cli/-/cli-1.0.3.tgz#c3be45b812c27ed35f39a86cf564d8b1e5be5c59"
-  integrity sha512-NqVhtFDvB+z4tNLE0xVbiF9P+PxhT9J2YWzzuanE5XlpSDis07ICVBnOpwNKvtMMKChsJVUS6E6vmT/VG3rNyA==
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@beemo/cli/-/cli-1.0.4.tgz#2579364f72d9b41c48f1bb0580c3b64b6fc74c02"
+  integrity sha512-CnaNhE8VTw4iuFp1ZHHzSxZIG711eDH/DgwFJYIuVop3w5uAMvC4hvLdibF/DB6/mcr6//4N0EM6+WfAH9gvxA==
   dependencies:
     chalk "^2.4.2"
     semver "^6.3.0"
-    yargs "^13.3.0"
+    yargs "^14.0.0"
 
 "@beemo/core@^1.0.5":
   version "1.0.5"
@@ -5582,6 +5582,23 @@ yargs@^13.3.0:
   integrity sha512-2eehun/8ALW8TLoIl7MVaRUrg+yCnenu8B4kBlRxj3GJGDKU1Og7sMXPNm1BYyM1DOJmTZ4YeN/Nwxv+8XJsUA==
   dependencies:
     cliui "^5.0.0"
+    find-up "^3.0.0"
+    get-caller-file "^2.0.1"
+    require-directory "^2.1.1"
+    require-main-filename "^2.0.0"
+    set-blocking "^2.0.0"
+    string-width "^3.0.0"
+    which-module "^2.0.0"
+    y18n "^4.0.0"
+    yargs-parser "^13.1.1"
+
+yargs@^14.0.0:
+  version "14.0.0"
+  resolved "https://registry.yarnpkg.com/yargs/-/yargs-14.0.0.tgz#ba4cacc802b3c0b3e36a9e791723763d57a85066"
+  integrity sha512-ssa5JuRjMeZEUjg7bEL99AwpitxU/zWGAGpdj0di41pOEmJti8NR6kyUIJBkR78DTYNPZOU08luUo0GTHuB+ow==
+  dependencies:
+    cliui "^5.0.0"
+    decamelize "^1.2.0"
     find-up "^3.0.0"
     get-caller-file "^2.0.1"
     require-directory "^2.1.1"
