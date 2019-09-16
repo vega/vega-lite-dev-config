@@ -646,13 +646,13 @@
     to-fast-properties "^2.0.0"
 
 "@beemo/cli@^1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@beemo/cli/-/cli-1.0.3.tgz#c3be45b812c27ed35f39a86cf564d8b1e5be5c59"
-  integrity sha512-NqVhtFDvB+z4tNLE0xVbiF9P+PxhT9J2YWzzuanE5XlpSDis07ICVBnOpwNKvtMMKChsJVUS6E6vmT/VG3rNyA==
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@beemo/cli/-/cli-1.0.4.tgz#2579364f72d9b41c48f1bb0580c3b64b6fc74c02"
+  integrity sha512-CnaNhE8VTw4iuFp1ZHHzSxZIG711eDH/DgwFJYIuVop3w5uAMvC4hvLdibF/DB6/mcr6//4N0EM6+WfAH9gvxA==
   dependencies:
     chalk "^2.4.2"
     semver "^6.3.0"
-    yargs "^13.3.0"
+    yargs "^14.0.0"
 
 "@beemo/core@^1.0.5":
   version "1.0.6"
