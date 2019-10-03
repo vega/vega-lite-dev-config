@@ -23,7 +23,7 @@ module.exports = {
     ...(context.args.react ? {jsx: true} : {})
   },
   rules: {
-    'prettier/prettier': 'warn',
+    'prettier/prettier': 'error',
     // https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/eslint-plugin#supported-rules
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/no-explicit-any': 'off',
