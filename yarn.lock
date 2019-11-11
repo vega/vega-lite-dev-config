@@ -738,9 +738,9 @@
     "@types/prettier" "*"
 
 "@beemo/driver-typescript@^1.1.3":
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/@beemo/driver-typescript/-/driver-typescript-1.1.3.tgz#1d6063233ed24af8b402fe57b2654e63a9214546"
-  integrity sha512-PdhQYiO132hpd2euW0NaJ/dlW6edIey619JaHL82wHegWaeq4SnuDCh3vuIFDBQakNhKy9GfK0g3R1ns+Nx0CA==
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/@beemo/driver-typescript/-/driver-typescript-1.1.4.tgz#2335bae30e85cff7168364b3d35faada1ede758f"
+  integrity sha512-/ov3HzfGp1lfVGOPsnjyda6VPMKfVTaR8Tt/d+zDK/fYM091nNHFnK08ySe3tS8q61OJxKirlurvUKBE0NTsuQ==
   dependencies:
     "@boost/event" "^1.1.0"
     rimraf "^3.0.0"
