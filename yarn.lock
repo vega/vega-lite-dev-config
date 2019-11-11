@@ -723,12 +723,11 @@
     "@boost/event" "^1.1.0"
 
 "@beemo/driver-jest@^1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@beemo/driver-jest/-/driver-jest-1.0.3.tgz#685c49eb7f095ded28066c38bd39284b07fe81b8"
-  integrity sha512-6aAMnFShMu//0VjoW975GGrIIpQys5B0PmbjIxwKhC0mkmjjyyA6v4RXijWQl4NQvtuJupxvm0h+kjCALaFsVg==
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@beemo/driver-jest/-/driver-jest-1.0.4.tgz#ed54f636219733f028edb1c81543d2fcd9e4b3ed"
+  integrity sha512-zkTkRYEYDYgom91kyQcXwXivs5pJxcpEF0dmBrhgTlg+JZZjK/jo+Yvj7rtlWAyG2qZfchfLLFEuL59Au+NrbQ==
   dependencies:
     "@jest/types" "^24.9.0"
-    utility-types "^3.7.0"
 
 "@beemo/driver-prettier@^1.0.3":
   version "1.0.3"
@@ -5419,11 +5418,6 @@ util.promisify@^1.0.0:
   dependencies:
     define-properties "^1.1.2"
     object.getownpropertydescriptors "^2.0.3"
-
-utility-types@^3.7.0:
-  version "3.8.0"
-  resolved "https://registry.yarnpkg.com/utility-types/-/utility-types-3.8.0.tgz#eaae1c2520c206b5623a4f07af38e3aa31dc2f06"
-  integrity sha512-UoKivAmVw5TL6AHuILieOJjIK9ajS0l5gyN5LbJglPuVwzfYBniDhe+3A5+ZBtS0TAHQs5qUxTwj9jXurINrcw==
 
 uuid@^3.3.2:
   version "3.3.3"
