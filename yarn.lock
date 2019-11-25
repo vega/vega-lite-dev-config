@@ -730,13 +730,13 @@
     to-fast-properties "^2.0.0"
 
 "@beemo/cli@^1.0.4":
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/@beemo/cli/-/cli-1.0.6.tgz#4cc801211cec374c4b4859cdc8bae0315f2e6f22"
-  integrity sha512-RMwmPsjTwXx7077496Zgz6UEXvtWky+JghZZkAmLD19kW+XCMPNPlgMlmrvvOBpJNN52x4kQ5y04zQcABv77ug==
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/@beemo/cli/-/cli-1.0.7.tgz#bbda42abccc6d6e0fb2c54c4238330372743a68d"
+  integrity sha512-NDPx/gxqXXWH0rsL3AbUyANeNd2mNEGE8w1avSHqifAKxha5nx3KPpiEkicw/GKFTROwIqFBs9VwbQ4FAEUkAA==
   dependencies:
     chalk "^3.0.0"
     semver "^6.3.0"
-    yargs "^14.2.0"
+    yargs "^15.0.2"
 
 "@beemo/core@^1.0.6":
   version "1.0.9"
