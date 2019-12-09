@@ -721,9 +721,9 @@
     "@boost/event" "^1.1.1"
 
 "@beemo/driver-jest@^1.0.4":
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/@beemo/driver-jest/-/driver-jest-1.0.4.tgz#ed54f636219733f028edb1c81543d2fcd9e4b3ed"
-  integrity sha512-zkTkRYEYDYgom91kyQcXwXivs5pJxcpEF0dmBrhgTlg+JZZjK/jo+Yvj7rtlWAyG2qZfchfLLFEuL59Au+NrbQ==
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@beemo/driver-jest/-/driver-jest-1.1.0.tgz#c0a185b3478e23e324ee739cb1209492af5597eb"
+  integrity sha512-my2IVO3NlSYhccHBeBNqXmJkTFUTuHkIs8V3+a3zNuTwRJVC2XSZx1d0p3eymJKy0woic5tN1NP2EiadIL4Y4w==
   dependencies:
     "@jest/types" "^24.9.0"
 
