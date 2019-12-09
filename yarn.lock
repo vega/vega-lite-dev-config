@@ -716,9 +716,9 @@
     "@jest/types" "^24.9.0"
 
 "@beemo/driver-prettier@^1.0.4":
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/@beemo/driver-prettier/-/driver-prettier-1.0.4.tgz#236499bbcb148d1966ce7d71b8429a43b5cb42aa"
-  integrity sha512-VLLSAlQdcnE1GHa/3Cfv39zr1ztO2Xuv+yzAi9mcfXLOJjoM0yoeAoJBtEBCm9garJuKlBe0RK5DespCcg4X5w==
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@beemo/driver-prettier/-/driver-prettier-1.1.0.tgz#cd68a60c0771113553315ceb1575a98e6ca75092"
+  integrity sha512-IYyitESZ+8c3hGb51lu8odhfTxVtM8OEJRquMpsgH4ShkgslK90QX7Mgy9Bq7YKUq4LspMkUKcQvvVv2wBDxvw==
   dependencies:
     "@boost/event" "^1.1.1"
     "@types/prettier" "*"
