@@ -714,9 +714,9 @@
     rimraf "^3.0.0"
 
 "@beemo/driver-eslint@^1.0.7":
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/@beemo/driver-eslint/-/driver-eslint-1.0.7.tgz#3deb3946f0d6a26a5dbe999966fc9811d2a2ba0e"
-  integrity sha512-IRBn67ohVoTk+1bot5I1SO8HPl1CjwRBcppBM1iyINvtUy8qj39DE9Nw09J6YoblYSn54nqUQg1xo1mYQcTtGw==
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@beemo/driver-eslint/-/driver-eslint-1.1.0.tgz#cded33b9f8f2a57ca7958c18a3c1fdaafa79b86c"
+  integrity sha512-eJxLgbnxmyTc0S6fzXmU+0eUBNW174mgAyiBHGoWgV5ZJive5DonaZWBiMkFfoVrK21h/CBguWLBBpy6UNBsbA==
   dependencies:
     "@boost/event" "^1.1.1"
 
