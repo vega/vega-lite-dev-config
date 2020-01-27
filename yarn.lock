@@ -716,13 +716,13 @@
     to-fast-properties "^2.0.0"
 
 "@beemo/cli@^1.0.7":
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/@beemo/cli/-/cli-1.0.7.tgz#bbda42abccc6d6e0fb2c54c4238330372743a68d"
-  integrity sha512-NDPx/gxqXXWH0rsL3AbUyANeNd2mNEGE8w1avSHqifAKxha5nx3KPpiEkicw/GKFTROwIqFBs9VwbQ4FAEUkAA==
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/@beemo/cli/-/cli-1.0.8.tgz#d20b6370c547c73568da927b7d7eb3d61f076f3a"
+  integrity sha512-uzPO/5q2/IF+oxtHMpADkSY+/uI9yi73AqkSFK3bsYVUKeF5ZMQ4sCq+6j0aJyS4aIbYLXCxMFNyXOTG+XxzLQ==
   dependencies:
     chalk "^3.0.0"
     semver "^6.3.0"
-    yargs "^15.0.2"
+    yargs "^15.1.0"
 
 "@beemo/core@^1.1.1":
   version "1.1.1"
@@ -5802,10 +5802,10 @@ yargs@^13.3.0:
     y18n "^4.0.0"
     yargs-parser "^13.1.1"
 
-yargs@^15.0.2:
-  version "15.0.2"
-  resolved "https://registry.yarnpkg.com/yargs/-/yargs-15.0.2.tgz#4248bf218ef050385c4f7e14ebdf425653d13bd3"
-  integrity sha512-GH/X/hYt+x5hOat4LMnCqMd8r5Cv78heOMIJn1hr7QPPBqfeC6p89Y78+WB9yGDvfpCvgasfmWLzNzEioOUD9Q==
+yargs@^15.0.2, yargs@^15.1.0:
+  version "15.1.0"
+  resolved "https://registry.yarnpkg.com/yargs/-/yargs-15.1.0.tgz#e111381f5830e863a89550bd4b136bb6a5f37219"
+  integrity sha512-T39FNN1b6hCW4SOIk1XyTOWxtXdcen0t+XYrysQmChzSipvhBO8Bj0nK1ozAasdk24dNWuMZvr4k24nz+8HHLg==
   dependencies:
     cliui "^6.0.0"
     decamelize "^1.2.0"
