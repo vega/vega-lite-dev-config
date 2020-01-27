@@ -761,11 +761,11 @@
     rimraf "^3.0.0"
 
 "@beemo/driver-eslint@^1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@beemo/driver-eslint/-/driver-eslint-1.2.0.tgz#7db72744a815630710bd68b0d31add57d3a5dd1a"
-  integrity sha512-ZWxOVDi1tgmvnzunUob9r3u0kHfIIXcQbWZpvxhe+SwPUIAVVQS88r7kVlP0/l+jEfF3HP3x8CO25iXcxurEJA==
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/@beemo/driver-eslint/-/driver-eslint-1.2.1.tgz#05d3d70718fbccda27c79b7ce1a4d3e9b06cbcd8"
+  integrity sha512-AH2k9ueLONTwUVEYgfZqDJY7gx+z2CmEP5wfHzQguotPYdWjocqYLy96x897vpl9vkkZZABKu9RNxwz6O2+rdQ==
   dependencies:
-    "@boost/event" "^1.1.1"
+    "@boost/event" "^1.2.1"
 
 "@beemo/driver-jest@^1.1.1":
   version "1.1.1"
@@ -845,17 +845,25 @@
     debug "^4.1.1"
     execa "^3.4.0"
 
-"@boost/event@^1.1.1":
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/@boost/event/-/event-1.1.1.tgz#b8f84c58b4f26eeefedcba6faef6c753dfbda3ea"
-  integrity sha512-7GKUlJzW1JMRuv71+yDAzrCRYeuC+UJPlUXgOO8V6eShnS+ElPbOcHSPjrCimuNqPajtxQz4U5p5cT6sFw2VZQ==
+"@boost/event@^1.1.1", "@boost/event@^1.2.1":
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/@boost/event/-/event-1.2.1.tgz#949f603f07a860d01dbbc297904f218930ab342c"
+  integrity sha512-/gfQHWApt0TKk7y+ESllwx4k1TLbxhHNNtSTaB5Z7CE26sGddrDzMFu4hpJKqquxRW4MhWlao5ZpNgacWkvJbA==
   dependencies:
-    "@boost/internal" "^1.0.1"
+    "@boost/internal" "^1.0.3"
 
 "@boost/internal@^1.0.1":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@boost/internal/-/internal-1.0.1.tgz#50b3baa822a58bc14c00bfc3c007299bb0f19626"
   integrity sha512-otH/JobguT91hppy5KJ/+93Qq4AXncuzHc89wCNKzNA/46OZYfKbdHa8h6bRNsgBCdm4KopAGYPunkC08tSqXA==
+  dependencies:
+    chalk "^3.0.0"
+    debug "^4.1.1"
+
+"@boost/internal@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@boost/internal/-/internal-1.0.3.tgz#b2a1e66e68f829e06d3b1c1565e03bbe5e3ff602"
+  integrity sha512-xVUgtVO1V3+vLZc5EwQjg0uwj2zO1JASPiisfc74dKCu9Z47kgh/Dk+NSS/j+bZJvkno0so1s5jLkYFpmzFHyQ==
   dependencies:
     chalk "^3.0.0"
     debug "^4.1.1"
