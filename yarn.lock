@@ -780,11 +780,11 @@
     "@boost/event" "^1.3.0"
 
 "@beemo/driver-jest@^1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@beemo/driver-jest/-/driver-jest-1.2.0.tgz#11927effdebe93f41426c7f12d6b4dd21fea91e9"
-  integrity sha512-SEdbSkZ5yYbrTK2uoOg0TQwvzdOv86d1sqlC84DYHxAs06w5tlB/TMbDvL8lMSgWnKMwcDPGCMd85ZFE/5sePQ==
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/@beemo/driver-jest/-/driver-jest-1.2.1.tgz#47b253fac5d390bc3dc0841ee96b26f250113744"
+  integrity sha512-5P6SSUQvydn1S0wnwMTfbuQPYdiWb702LPAwtDVUTwbh9T2oRGCDGl3Sr9FQspvR2Ky9mkyHrL89KULr+qHcZw==
   dependencies:
-    "@jest/types" "^24.9.0"
+    "@jest/types" "^25.1.0"
 
 "@beemo/driver-prettier@^1.2.1":
   version "1.2.2"
@@ -853,7 +853,7 @@
     execa "^3.4.0"
     fast-glob "^3.1.1"
 
-"@boost/event@^1.2.1", "@boost/event@^1.3.0":
+"@boost/event@^1.3.0":
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/@boost/event/-/event-1.3.0.tgz#7bc989098aa6e2b819ed1904170056eb288396af"
   integrity sha512-EszQ+bSw2lfobsE5pGEnFROXMcxqClXnJIohM/INO/8xjKvFeAVVpQKUEnYVbOcCWYVnwsJ7nBapXLA6Z6Zv7w==
@@ -1076,15 +1076,6 @@
     source-map "^0.6.1"
     write-file-atomic "^3.0.0"
 
-"@jest/types@^24.9.0":
-  version "24.9.0"
-  resolved "https://registry.yarnpkg.com/@jest/types/-/types-24.9.0.tgz#63cb26cb7500d069e5a389441a7c6ab5e909fc59"
-  integrity sha512-XKK7ze1apu5JWQ5eZjHITP66AX+QsLlbaJRBGYr8pNzwcAE2JVkwnf0yqjHTsDRcjR0mujy/NmZMXw5kl+kGBw==
-  dependencies:
-    "@types/istanbul-lib-coverage" "^2.0.0"
-    "@types/istanbul-reports" "^1.1.1"
-    "@types/yargs" "^13.0.0"
-
 "@jest/types@^25.1.0":
   version "25.1.0"
   resolved "https://registry.yarnpkg.com/@jest/types/-/types-25.1.0.tgz#b26831916f0d7c381e11dbb5e103a72aed1b4395"
@@ -1231,13 +1222,6 @@
   resolved "https://registry.yarnpkg.com/@types/yargs-parser/-/yargs-parser-15.0.0.tgz#cb3f9f741869e20cce330ffbeb9271590483882d"
   integrity sha512-FA/BWv8t8ZWJ+gEOnLLd8ygxH/2UFbAvgEonyfN6yWGLKc7zVjbpl2Y4CTjid9h2RfgPP6SEt6uHwEOply00yw==
 
-"@types/yargs@^13.0.0":
-  version "13.0.6"
-  resolved "https://registry.yarnpkg.com/@types/yargs/-/yargs-13.0.6.tgz#6aed913a92c262c13b94d4bca8043237de202124"
-  integrity sha512-IkltIncDQWv6fcAvnHtJ6KtkmY/vtR3bViOaCzpj/A3yNhlfZAgxNe6AEQD1cQrkYD+YsKVo08DSxvNKEsD7BA==
-  dependencies:
-    "@types/yargs-parser" "*"
-
 "@types/yargs@^15.0.0", "@types/yargs@^15.0.3":
   version "15.0.3"
   resolved "https://registry.yarnpkg.com/@types/yargs/-/yargs-15.0.3.tgz#41453a0bc7ab393e995d1f5451455638edbd2baf"
@@ -1255,15 +1239,6 @@
     functional-red-black-tree "^1.0.1"
     regexpp "^3.0.0"
     tsutils "^3.17.1"
-
-"@typescript-eslint/experimental-utils@2.18.0":
-  version "2.18.0"
-  resolved "https://registry.yarnpkg.com/@typescript-eslint/experimental-utils/-/experimental-utils-2.18.0.tgz#e4eab839082030282496c1439bbf9fdf2a4f3da8"
-  integrity sha512-J6MopKPHuJYmQUkANLip7g9I82ZLe1naCbxZZW3O2sIxTiq/9YYoOELEKY7oPg0hJ0V/AQ225h2z0Yp+RRMXhw==
-  dependencies:
-    "@types/json-schema" "^7.0.3"
-    "@typescript-eslint/typescript-estree" "2.18.0"
-    eslint-scope "^5.0.0"
 
 "@typescript-eslint/experimental-utils@2.19.0":
   version "2.19.0"
@@ -1283,19 +1258,6 @@
     "@typescript-eslint/experimental-utils" "2.19.0"
     "@typescript-eslint/typescript-estree" "2.19.0"
     eslint-visitor-keys "^1.1.0"
-
-"@typescript-eslint/typescript-estree@2.18.0":
-  version "2.18.0"
-  resolved "https://registry.yarnpkg.com/@typescript-eslint/typescript-estree/-/typescript-estree-2.18.0.tgz#cfbd16ed1b111166617d718619c19b62764c8460"
-  integrity sha512-gVHylf7FDb8VSi2ypFuEL3hOtoC4HkZZ5dOjXvVjoyKdRrvXAOPSzpNRnKMfaUUEiSLP8UF9j9X9EDLxC0lfZg==
-  dependencies:
-    debug "^4.1.1"
-    eslint-visitor-keys "^1.1.0"
-    glob "^7.1.6"
-    is-glob "^4.0.1"
-    lodash "^4.17.15"
-    semver "^6.3.0"
-    tsutils "^3.17.1"
 
 "@typescript-eslint/typescript-estree@2.19.0":
   version "2.19.0"
