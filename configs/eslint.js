@@ -9,18 +9,18 @@ module.exports = {
     'prettier',
     'prettier/@typescript-eslint',
     'plugin:prettier/recommended',
-    ...(context.args.react ? ['plugin:react/recommended'] : [])
+    ...(context.args.react ? ['plugin:react/recommended'] : []),
   ],
   ...(context.args.react ? {settings: {react: {version: 'detect'}}} : {}),
   env: {
     browser: true,
-    node: true
+    node: true,
   },
   parserOptions: {
     project: 'tsconfig.json',
     ecmaVersion: 2018, // Allows for the parsing of modern ECMAScript features
     sourceType: 'module', // Allows for the use of imports
-    ...(context.args.react ? {jsx: true} : {})
+    ...(context.args.react ? {jsx: true} : {}),
   },
   rules: {
     'prettier/prettier': 'error',
@@ -39,8 +39,8 @@ module.exports = {
       {
         vars: 'all',
         args: 'after-used',
-        ignoreRestSiblings: true
-      }
+        ignoreRestSiblings: true,
+      },
     ],
     '@typescript-eslint/no-object-literal-type-assertion': 'off', // we can do this later
     '@typescript-eslint/no-namespace': 'off', // we can do this later
@@ -56,7 +56,7 @@ module.exports = {
     // "prefer-template": "error",  // we can do this later
     'no-console': 'off', // we use console
     'no-undef': 'off', // typescript takes care of this for us
-    'no-unreachable': 'off' // typescript takes care of this for us
+    'no-unreachable': 'off', // typescript takes care of this for us
   },
-  ignore: ['.eslintrc.js', 'prettier.config.js', 'rollup.config.js']
+  ignore: ['.eslintrc.js', 'prettier.config.js', 'rollup.config.js'],
 };

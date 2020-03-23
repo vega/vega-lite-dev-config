@@ -6,9 +6,9 @@ module.exports = {
       files: '*.{js,jsx,ts,tsx}',
       options: {
         bracketSpacing: false,
-        singleQuote: true
-      }
-    }
+        singleQuote: true,
+      },
+    },
   ],
-  ignore: ['.eslintrc.js', 'prettier.config.js', '.prettierrc.js']
+  ignore: ['.eslintrc.js', 'prettier.config.js', '.prettierrc.js'],
 };
