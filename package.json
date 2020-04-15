@@ -39,6 +39,7 @@
     "ts-jest": "^25.3.1"
   },
   "devDependencies": {
+    "@types/node": "^13.11.1",
     "typescript": "^3.5.3"
   },
   "peerDependencies": {
@@ -51,8 +52,8 @@
     ]
   },
   "scripts": {
-    "prepare": "beemo create-config --silent",
-    "lint": "beemo prettier --check \"./configs/**/*.js\"",
-    "format": "beemo prettier --write \"./configs/**/*.js\""
+    "prepare": "tsc && beemo create-config",
+    "lint": "beemo prettier --check \"./src/**/*.ts\"",
+    "format": "beemo prettier --write \"./src/**/*.ts\""
   }
 }

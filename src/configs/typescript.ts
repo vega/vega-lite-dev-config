@@ -1,4 +1,6 @@
-module.exports = {
+import {TypeScriptConfig} from '@beemo/driver-typescript';
+
+const config: TypeScriptConfig = {
   compilerOptions: {
     target: 'es6',
     module: 'es2015',
@@ -31,3 +33,5 @@ module.exports = {
   },
   files: ['src/index.ts'],
 };
+
+export default config;

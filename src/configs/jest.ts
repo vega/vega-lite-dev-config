@@ -1,4 +1,6 @@
-module.exports = {
+import {JestConfig} from '@beemo/driver-jest';
+
+const config: JestConfig = {
   transform: {
     '^.+\\.tsx?$': 'ts-jest',
     '^.+\\.jsx?$': 'babel-jest',
@@ -9,3 +11,5 @@ module.exports = {
   coverageDirectory: './coverage/',
   collectCoverage: true,
 };
+
+export default config;

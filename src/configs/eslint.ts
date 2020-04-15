@@ -1,6 +1,8 @@
+import {ESLintConfig} from '@beemo/driver-eslint';
+
 const {context} = process.beemo;
 
-module.exports = {
+const config: ESLintConfig = {
   parser: '@typescript-eslint/parser',
   plugins: ['@typescript-eslint', 'prettier', ...(context.args.react ? ['react'] : [])],
   extends: [
@@ -60,3 +62,5 @@ module.exports = {
   },
   ignore: ['.eslintrc.js', 'prettier.config.js', 'rollup.config.js'],
 };
+
+export default config;

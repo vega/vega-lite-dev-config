@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "outDir": "./lib/configs",
+    "target": "es5",
+    "module": "CommonJS",
+    "moduleResolution": "node",
+
+    "strict": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "includes": ["src/configs/*.ts"]
+}
