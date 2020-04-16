@@ -1,5 +1,5 @@
 .prettierignore
 beemo-error.log
-lib/*
+lib
 node_modules
 prettier.config.js
