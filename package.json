@@ -1,6 +1,6 @@
 {
   "name": "vega-lite-dev-config",
-  "version": "0.7.0",
+  "version": "0.7.1",
   "description": "Version-controlled build config for easy re-use and sharing",
   "repository": {
     "type": "git",
@@ -17,9 +17,9 @@
   },
   "homepage": "https://github.com/vega/vega-lite-dev-config#readme",
   "dependencies": {
+    "@babel/cli": "^7.8.4",
     "@babel/core": "^7.9.0",
     "@babel/preset-env": "^7.9.5",
-    "@babel/cli": "^7.8.4",
     "@beemo/cli": "^1.0.10",
     "@beemo/core": "^1.1.6",
     "@beemo/driver-babel": "^1.2.3",
