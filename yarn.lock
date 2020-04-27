@@ -794,9 +794,9 @@
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
 "@beemo/cli@^1.0.10":
-  version "1.0.10"
-  resolved "https://registry.yarnpkg.com/@beemo/cli/-/cli-1.0.10.tgz#8600a1dca69cbd48605621702fc7a791a9bd16c8"
-  integrity sha512-qFTPLpr06FppHR+OGMTolVR+j85Xb157NtQsxv3Id276rWQPfyw9j7CNoe/GqtX9KzxRd1f+6bCnrbqMM5AfEA==
+  version "1.0.11"
+  resolved "https://registry.yarnpkg.com/@beemo/cli/-/cli-1.0.11.tgz#1145bb512ba676b047e144c91f3f856379ae959f"
+  integrity sha512-bTxKuIXwvwo4mmlistnnLF/e15NBLMNjPnNGG9BnOw73M1+M1qGmAb07ncbA46RpW60FpohHQnGRmovT4nTZFw==
   dependencies:
     chalk "^3.0.0"
     semver "^6.3.0"
