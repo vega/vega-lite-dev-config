@@ -803,13 +803,13 @@
     yargs "^15.3.1"
 
 "@beemo/core@^1.1.6":
-  version "1.1.6"
-  resolved "https://registry.yarnpkg.com/@beemo/core/-/core-1.1.6.tgz#6a3462681f6a0af76216992f185235ba431c952a"
-  integrity sha512-/ZIPnXH754FgOcS4boDLJljhVDCDDSNqn6T5Ul/hBdfnTcR6dj1j8ZQ3QsQGG6kQ0N70xn5WNz/rABiFtQZ9Mg==
+  version "1.1.7"
+  resolved "https://registry.yarnpkg.com/@beemo/core/-/core-1.1.7.tgz#e5e080d8fc39fbe5f7f10a0849c99a1a58b4c0ee"
+  integrity sha512-AsQNyQ3+EvYVXNiXIjGPmxg+Heos6Vrsiz39/aGfOhj/l1KBd1pP/63skOODBMQrwVWfnvw5NgEfZYCe9wXV3A==
   dependencies:
-    "@beemo/dependency-graph" "^1.1.0"
-    "@boost/common" "^1.8.2"
-    "@boost/core" "^1.18.2"
+    "@beemo/dependency-graph" "^1.1.1"
+    "@boost/common" "^1.8.4"
+    "@boost/core" "^1.18.5"
     "@boost/event" "^1.3.0"
     "@types/micromatch" "^4.0.1"
     "@types/yargs" "^15.0.4"
@@ -824,12 +824,12 @@
     micromatch "^4.0.2"
     optimal "^4.2.0"
     yargs "^15.3.1"
-    yargs-parser "^18.1.1"
+    yargs-parser "^18.1.3"
 
-"@beemo/dependency-graph@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@beemo/dependency-graph/-/dependency-graph-1.1.0.tgz#5f110fe8ed148acf589bc4fddc538b07f0a4d03f"
-  integrity sha512-xBPqNB99Q0icr7NgYZyxH9lmjo1UgzzozZM/gcDe1jYqKBFx2CZ4jkuOG3d7exjAN4jq/+QfWETAJrHnopdAaA==
+"@beemo/dependency-graph@^1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@beemo/dependency-graph/-/dependency-graph-1.1.1.tgz#66de1321e16723744d25976c00c9c488796307e2"
+  integrity sha512-fGPazlIZmBfqC/ayoPm2jahdurssiYZV9HXb/MOYXmF6WdP6MIMALx6k18kjAxJflv5FcmvS6ESKU+eBrrh0ug==
 
 "@beemo/driver-babel@^1.2.3":
   version "1.2.3"
@@ -868,29 +868,29 @@
     "@boost/event" "^1.3.0"
     rimraf "^3.0.2"
 
-"@boost/common@^1.8.2", "@boost/common@^1.8.3":
-  version "1.8.3"
-  resolved "https://registry.yarnpkg.com/@boost/common/-/common-1.8.3.tgz#ea491c50c40f54f3eb094aa26c5134f0d759e206"
-  integrity sha512-3R0hfJ1eoiBcybCdvqZirKpXebNWHJ0GSNwwXEmQlEVWfS+8BTnE8Qg/+U8oZNhBS6DeA44Lh2AWEDNbHTZ2KA==
+"@boost/common@^1.8.4":
+  version "1.8.4"
+  resolved "https://registry.yarnpkg.com/@boost/common/-/common-1.8.4.tgz#8ac48e0f484fe74609d30c757397b6fd295c847c"
+  integrity sha512-iOXgeNbu8L/Y/A2t2G+YZJGVa6yLBVsf1MO8Ah2ObOhXFqxChAV3SJAAVOE2JmV4RbWx4u1hp7IME8HOK714Tw==
   dependencies:
     "@boost/internal" "^1.1.0"
     js-yaml "^3.13.1"
-    json5 "^2.1.2"
+    json5 "^2.1.3"
     optimal "^4.2.0"
     pretty-ms "^5.1.0"
 
-"@boost/core@^1.18.2":
-  version "1.18.4"
-  resolved "https://registry.yarnpkg.com/@boost/core/-/core-1.18.4.tgz#39e4930a8b32139ee6e9f9dd78c209cd7645cc4e"
-  integrity sha512-YDmovx3iiJqqv0+HJKGmjJhXCxjbyF6Na6aqrTxSt7bCt8MYt6dB46hIAzj5NbNxJw1xSi3KUeyHWm/6rRA0GA==
+"@boost/core@^1.18.5":
+  version "1.18.5"
+  resolved "https://registry.yarnpkg.com/@boost/core/-/core-1.18.5.tgz#e9404a84778616f4c8d5be990d3507261765232f"
+  integrity sha512-74ujm26EOeIbjyT0/tzHZ1VafO+KLAxi88t5TWnr6qvYsoaDSMdNZ/7dOhFUyF3RX+Lz7KTjMDKIXr3OUa//Vg==
   dependencies:
-    "@boost/common" "^1.8.3"
-    "@boost/debug" "^1.4.4"
+    "@boost/common" "^1.8.4"
+    "@boost/debug" "^1.4.5"
     "@boost/event" "^1.3.0"
     "@boost/internal" "^1.1.0"
-    "@boost/log" "^1.1.13"
+    "@boost/log" "^1.1.14"
     "@boost/terminal" "^1.0.3"
-    "@boost/translate" "^1.3.7"
+    "@boost/translate" "^1.3.8"
     "@types/debug" "^4.1.5"
     "@types/yargs" "^15.0.4"
     "@types/yargs-parser" "^15.0.0"
@@ -900,19 +900,19 @@
     exit "^0.1.2"
     fast-glob "^3.2.2"
     fs-extra "^8.1.0"
-    json5 "^2.1.2"
+    json5 "^2.1.3"
     lodash "^4.17.15"
     optimal "^4.2.0"
     pluralize "^8.0.0"
     split "^1.0.1"
-    yargs-parser "^18.1.1"
+    yargs-parser "^18.1.2"
 
-"@boost/debug@^1.4.4":
-  version "1.4.4"
-  resolved "https://registry.yarnpkg.com/@boost/debug/-/debug-1.4.4.tgz#7e3b32258ad24bca717792bb9d28fe49e8beb0a8"
-  integrity sha512-cQfksMzfPrz5iIlcDljIyPfcsGiCMQe3Lnwc12gDZrs1wBR+2r1RSxJy8Z5s0d8nGZe+9Ousr5JXKwdpOOm66w==
+"@boost/debug@^1.4.5":
+  version "1.4.5"
+  resolved "https://registry.yarnpkg.com/@boost/debug/-/debug-1.4.5.tgz#1149f7e5e69a6bdf7b5a42aa493da500b1134f0c"
+  integrity sha512-qH/RmJZoqjENIfvPcXNLGKpr81Cz4fGqW3p835a4znIJFfCjCvJXl3ZutLCX86ISzxKQK82K1m1DHOemtE7u/A==
   dependencies:
-    "@boost/common" "^1.8.3"
+    "@boost/common" "^1.8.4"
     "@boost/internal" "^1.1.0"
     "@types/debug" "^4.1.5"
     debug "^4.1.1"
@@ -934,13 +934,13 @@
     chalk "^3.0.0"
     debug "^4.1.1"
 
-"@boost/log@^1.1.13":
-  version "1.1.13"
-  resolved "https://registry.yarnpkg.com/@boost/log/-/log-1.1.13.tgz#b48be16acbdb98c926740a80949942446db765d8"
-  integrity sha512-FghL9UO2GkEmDCoRdkc5nMuCJA1kF0sPXlk1eSSfHOcZdtrkCmqHU/L3DDkQazYwVdNduP5wluMq/1vSb3YFaw==
+"@boost/log@^1.1.14":
+  version "1.1.14"
+  resolved "https://registry.yarnpkg.com/@boost/log/-/log-1.1.14.tgz#d4f919b913762a21d714d0395f3b5564378f79a1"
+  integrity sha512-q0eOD1Luk3C4muDsiwQYu1B1zAvO75JKHi57eLFC8AqlyRHrAgfsNz9zdMdb5qKINGu3u1ad/mY+DMnl2unXtQ==
   dependencies:
     "@boost/internal" "^1.1.0"
-    "@boost/translate" "^1.3.7"
+    "@boost/translate" "^1.3.8"
     chalk "^3.0.0"
 
 "@boost/terminal@^1.0.3":
@@ -960,14 +960,14 @@
     term-size "^2.2.0"
     wrap-ansi "^6.2.0"
 
-"@boost/translate@^1.3.7":
-  version "1.3.7"
-  resolved "https://registry.yarnpkg.com/@boost/translate/-/translate-1.3.7.tgz#ecbf41bf8a68152371ccb2f065b3534696b0f297"
-  integrity sha512-FPhLX8zp7ZVyziIBckevHkKXjOMdRMiteFNMBJqOpACQyf7Hu4B3Q0VvAsP1AbLcCmxOJk5EBCi1MsRnsVDbqg==
+"@boost/translate@^1.3.8":
+  version "1.3.8"
+  resolved "https://registry.yarnpkg.com/@boost/translate/-/translate-1.3.8.tgz#76a15c09eda15de3d558a6de168b91c5de4d5e87"
+  integrity sha512-nkrZBm3trnYnyZ8pZhFsA4MDy1aDcQwzuKJl/weAw2JetRw15PmegfOOGqV03XLh9am19Jthp3HzaIJBjwEkOQ==
   dependencies:
-    "@boost/common" "^1.8.3"
+    "@boost/common" "^1.8.4"
     "@boost/internal" "^1.1.0"
-    i18next "^19.3.3"
+    i18next "^19.4.2"
     os-locale "^4.0.0"
 
 "@cnakazawa/watch@^1.0.3":
@@ -2905,10 +2905,10 @@ hygen@^5.0.3:
     ts-jest "^24.1.0"
     yargs-parser "^13.0.0"
 
-i18next@^19.3.3:
-  version "19.4.2"
-  resolved "https://registry.yarnpkg.com/i18next/-/i18next-19.4.2.tgz#5be6ebbef9cfa44a2691ab47b8ccd8cf7179cff5"
-  integrity sha512-gDctWhIgACc92Uub7vb0GTdtLKZTgiDIiBkGExOSPgqhCSyyPOb8svLxixzzSS3yMjC3fduK/BbkRt95JHwvDw==
+i18next@^19.4.2:
+  version "19.4.4"
+  resolved "https://registry.yarnpkg.com/i18next/-/i18next-19.4.4.tgz#c0a18bc2f2be554da636e67bfbf5200c7948b60d"
+  integrity sha512-ofaHtdsDdX3A5nYur1HWblB7J4hIcjr2ACdnwTAJgc8hTfPbyzZfGX0hVkKpI3vzDIgO6Uzc4v1ffW2W6gG6zw==
   dependencies:
     "@babel/runtime" "^7.3.1"
 
@@ -3748,7 +3748,7 @@ json-stringify-safe@~5.0.1:
   resolved "https://registry.yarnpkg.com/json-stringify-safe/-/json-stringify-safe-5.0.1.tgz#1296a2d58fd45f19a0f6ce01d65701e2c735b6eb"
   integrity sha1-Epai1Y/UXxmg9s4B1lcB4sc1tus=
 
-json5@2.x, json5@^2.1.2:
+json5@2.x, json5@^2.1.2, json5@^2.1.3:
   version "2.1.3"
   resolved "https://registry.yarnpkg.com/json5/-/json5-2.1.3.tgz#c9b0f7fa9233bfe5807fe66fcf3a5617ed597d43"
   integrity sha512-KXPvOm8K9IJKFM0bmdn8QXh7udDh1g/giieX0NLCaMnb4hEiVFqnop2ImTXCc5e0/oHz3LTqmHGtExn5hfMkOA==
@@ -5821,10 +5821,10 @@ yargs-parser@10.x:
   dependencies:
     camelcase "^4.1.0"
 
-yargs-parser@18.x, yargs-parser@^18.1.1:
-  version "18.1.2"
-  resolved "https://registry.yarnpkg.com/yargs-parser/-/yargs-parser-18.1.2.tgz#2f482bea2136dbde0861683abea7756d30b504f1"
-  integrity sha512-hlIPNR3IzC1YuL1c2UwwDKpXlNFBqD1Fswwh1khz5+d8Cq/8yc/Mn0i+rQXduu8hcrFKvO7Eryk+09NecTQAAQ==
+yargs-parser@18.x, yargs-parser@^18.1.1, yargs-parser@^18.1.2, yargs-parser@^18.1.3:
+  version "18.1.3"
+  resolved "https://registry.yarnpkg.com/yargs-parser/-/yargs-parser-18.1.3.tgz#be68c4975c6b2abf469236b0c870362fab09a7b0"
+  integrity sha512-o50j0JeToy/4K6OZcaQmW6lyXXKhq7csREXcDwk2omFPJEwUNOVtJKvmDr9EI1fAJZUyZcRF7kxGBWmRXudrCQ==
   dependencies:
     camelcase "^5.0.0"
     decamelize "^1.2.0"
