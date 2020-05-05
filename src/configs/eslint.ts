@@ -7,6 +7,8 @@ const config: ESLintConfig = {
   plugins: ['@typescript-eslint', 'prettier', ...(context.args.react ? ['react'] : [])],
   extends: [
     'eslint:recommended',
+    'plugin:jest/recommended',
+    'plugin:jest/style',
     'plugin:@typescript-eslint/recommended',
     'prettier',
     'prettier/@typescript-eslint',
