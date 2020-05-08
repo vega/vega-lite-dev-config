@@ -15,6 +15,11 @@ const config: ESLintConfig = {
     'plugin:prettier/recommended',
     ...(context.args.react ? ['plugin:react/recommended'] : []),
   ],
+  overrides: [
+    {
+      files: ['*.ts'],
+    },
+  ],
   ...(context.args.react ? {settings: {react: {version: 'detect'}}} : {}),
   env: {
     browser: true,
