@@ -1,6 +1,6 @@
 # vega-lite-dev-config
 
-[![Build Status](https://travis-ci.com/vega/vega-lite-dev-config.svg?branch=master)](https://travis-ci.com/vega/vega-lite-dev-config)
+[![Build Status](https://github.com/vega/vega-lite-dev-config/workflows/Test/badge.svg)](https://github.com/vega/vega-lite-dev-config/actions)
 [![npm version](https://img.shields.io/npm/v/vega-lite-dev-config.svg)](https://www.npmjs.com/package/vega-lite-dev-config)
 
 
