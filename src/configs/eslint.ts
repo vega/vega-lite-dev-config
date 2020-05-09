@@ -17,7 +17,7 @@ const config: ESLintConfig = {
   ],
   overrides: [
     {
-      files: ['*.ts',  ...(context.args.react ? ['*.tsx'] : [])],
+      files: ['*.ts', ...(context.args.react ? ['*.tsx'] : [])],
     },
   ],
   ...(context.args.react ? {settings: {react: {version: 'detect'}}} : {}),
@@ -67,7 +67,7 @@ const config: ESLintConfig = {
     'no-undef': 'off', // typescript takes care of this for us
     'no-unreachable': 'off', // typescript takes care of this for us
   },
-  ignore: ['.eslintrc.js', 'prettier.config.js', 'rollup.config.js', 'build', 'build-es5'],
+  ignore: ['webpack.config.js', '.eslintrc.js', 'prettier.config.js', 'rollup.config.js', 'build', 'build-es5', 'dist'],
 };
 
 export default config;
