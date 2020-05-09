@@ -67,7 +67,7 @@ const config: ESLintConfig = {
     'no-undef': 'off', // typescript takes care of this for us
     'no-unreachable': 'off', // typescript takes care of this for us
   },
-  ignore: ['.eslintrc.js', 'prettier.config.js', 'rollup.config.js'],
+  ignore: ['.eslintrc.js', 'prettier.config.js', 'rollup.config.js', 'build', 'build-es5'],
 };
 
 export default config;
