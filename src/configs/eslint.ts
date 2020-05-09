@@ -17,7 +17,7 @@ const config: ESLintConfig = {
   ],
   overrides: [
     {
-      files: ['*.ts'],
+      files: ['*.ts',  ...(context.args.react ? ['*.tsx'] : [])],
     },
   ],
   ...(context.args.react ? {settings: {react: {version: 'detect'}}} : {}),
