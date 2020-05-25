@@ -8,7 +8,7 @@ Version-controlled build config for easy re-use and sharing using Beemo.
 
 ## Install
 
-```
+```sh
 yarn add --dev vega-lite-dev-config
 ```
 
@@ -18,7 +18,7 @@ Before leveraging the build config provided you should remove any older dependen
 
 This project is built with [🤖beemo](https://github.com/milesj/beemo), and therefore requires a `"beemo"` configuration block in your `package.json` with a list of drivers you want to enable. You can optionally configure drivers as shown below:
 
-```
+```js
 {
   "beemo": {
     "module": "vega-lite-dev-config",
@@ -49,7 +49,7 @@ Executing a driver will initialize 🤖 Beemo's pipeline, generate configuration
 
 You may define these commands as scripts in your package.json:
 
-```
+```js
 // package.json
 {
   "scripts": {
@@ -66,7 +66,7 @@ You may define these commands as scripts in your package.json:
 
 or for a monorepo, you may want to include `./packages/*/` in the path:
 
-```
+```sh
 "prettierbase": "beemo prettier './packages/*/{src,test,types}/**/*.{md,css}' # eslint takes care of tsx?/jsx?",
 "eslintbase": "beemo eslint './packages/*/{src,test,types}/**/*.{ts,tsx,js,jsx}'",
 ```
