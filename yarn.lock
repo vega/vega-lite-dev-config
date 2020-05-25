@@ -803,16 +803,16 @@
     yargs "^15.3.1"
 
 "@beemo/core@^1.1.7":
-  version "1.1.7"
-  resolved "https://registry.yarnpkg.com/@beemo/core/-/core-1.1.7.tgz#e5e080d8fc39fbe5f7f10a0849c99a1a58b4c0ee"
-  integrity sha512-AsQNyQ3+EvYVXNiXIjGPmxg+Heos6Vrsiz39/aGfOhj/l1KBd1pP/63skOODBMQrwVWfnvw5NgEfZYCe9wXV3A==
+  version "1.1.8"
+  resolved "https://registry.yarnpkg.com/@beemo/core/-/core-1.1.8.tgz#490316d3a49d3e6d8c8ee3178b35f4c5e295d556"
+  integrity sha512-mZfPEXoIwUQeAIHYt97c27cHk/xacIO/STOT29/lnzp4sbJiN1BtGcMa9+6zulVgiC2abeKuneSuXKXSu+LF3Q==
   dependencies:
     "@beemo/dependency-graph" "^1.1.1"
-    "@boost/common" "^1.8.4"
-    "@boost/core" "^1.18.5"
-    "@boost/event" "^1.3.0"
+    "@boost/common" "^1.8.5"
+    "@boost/core" "^1.18.6"
+    "@boost/event" "^1.3.1"
     "@types/micromatch" "^4.0.1"
-    "@types/yargs" "^15.0.4"
+    "@types/yargs" "^15.0.5"
     "@types/yargs-parser" "^15.0.0"
     chalk "^3.0.0"
     execa "^3.4.0"
@@ -868,7 +868,7 @@
     "@boost/event" "^1.3.1"
     rimraf "^3.0.2"
 
-"@boost/common@^1.8.4", "@boost/common@^1.8.5":
+"@boost/common@^1.8.5":
   version "1.8.5"
   resolved "https://registry.yarnpkg.com/@boost/common/-/common-1.8.5.tgz#9e790a1eef206902b5f2894aeac735d6908926f9"
   integrity sha512-cbI+1UeAgGk3YSemhwUh9PGYc31BZpNWPv8mBgFrs376UKv27jhF67Lpi+8gy+0aHrGtuuF9Y/PoCYjzQMR19w==
@@ -879,7 +879,7 @@
     optimal "^4.2.0"
     pretty-ms "^5.1.0"
 
-"@boost/core@^1.18.5":
+"@boost/core@^1.18.6":
   version "1.18.6"
   resolved "https://registry.yarnpkg.com/@boost/core/-/core-1.18.6.tgz#2fd8ac16b05e2a92e2c0b92be9fd2ca704307630"
   integrity sha512-j+UfqurdX4jsWg3PPSq7xTFEi/sGKYNJeWXSThgZm2AGPJI5ZWITeJ+uC6ke5I2nsqVDvboaYjsdGZdYXFZhfg==
@@ -1329,10 +1329,10 @@
   resolved "https://registry.yarnpkg.com/@types/yargs-parser/-/yargs-parser-15.0.0.tgz#cb3f9f741869e20cce330ffbeb9271590483882d"
   integrity sha512-FA/BWv8t8ZWJ+gEOnLLd8ygxH/2UFbAvgEonyfN6yWGLKc7zVjbpl2Y4CTjid9h2RfgPP6SEt6uHwEOply00yw==
 
-"@types/yargs@^15.0.0", "@types/yargs@^15.0.4":
-  version "15.0.4"
-  resolved "https://registry.yarnpkg.com/@types/yargs/-/yargs-15.0.4.tgz#7e5d0f8ca25e9d5849f2ea443cf7c402decd8299"
-  integrity sha512-9T1auFmbPZoxHz0enUFlUuKRy3it01R+hlggyVUMtnCTQRunsQYifnSGb8hET4Xo8yiC0o0r1paW3ud5+rbURg==
+"@types/yargs@^15.0.0", "@types/yargs@^15.0.4", "@types/yargs@^15.0.5":
+  version "15.0.5"
+  resolved "https://registry.yarnpkg.com/@types/yargs/-/yargs-15.0.5.tgz#947e9a6561483bdee9adffc983e91a6902af8b79"
+  integrity sha512-Dk/IDOPtOgubt/IaevIUbTgV7doaKkoorvOyYM2CMwuDyP89bekI7H4xLIwunNYiK9jhCkmc6pUrJk3cj2AB9w==
   dependencies:
     "@types/yargs-parser" "*"
 
