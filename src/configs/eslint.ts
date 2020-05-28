@@ -42,6 +42,7 @@ const config: ESLintConfig = {
     '@typescript-eslint/no-require-imports': 'error',
     '@typescript-eslint/no-parameter-properties': 'off',
     '@typescript-eslint/explicit-member-accessibility': 'off',
+    '@typescript-eslint/explicit-module-boundary-types': 'off',
     'no-unused-vars': 'off',
     '@typescript-eslint/no-unused-vars': [
       'error',
