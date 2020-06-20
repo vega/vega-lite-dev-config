@@ -17,9 +17,9 @@
   },
   "homepage": "https://github.com/vega/vega-lite-dev-config#readme",
   "dependencies": {
-    "@babel/cli": "^7.8.4",
-    "@babel/core": "^7.9.6",
-    "@babel/preset-env": "^7.9.6",
+    "@babel/cli": "^7.10.3",
+    "@babel/core": "^7.10.3",
+    "@babel/preset-env": "^7.10.3",
     "@beemo/cli": "^1.0.11",
     "@beemo/core": "^1.1.8",
     "@beemo/driver-babel": "^1.2.5",
@@ -28,20 +28,20 @@
     "@beemo/driver-prettier": "^1.3.2",
     "@beemo/driver-typescript": "^1.3.4",
     "@types/jest": "^26.0.0",
-    "@typescript-eslint/eslint-plugin": "^3.0.1",
-    "@typescript-eslint/parser": "^3.0.1",
+    "@typescript-eslint/eslint-plugin": "^3.3.0",
+    "@typescript-eslint/parser": "^3.3.0",
     "babel-jest": "^26.0.1",
-    "eslint": "^7.1.0",
+    "eslint": "^7.3.0",
     "eslint-config-prettier": "^6.11.0",
-    "eslint-plugin-jest": "^23.13.1",
-    "eslint-plugin-prettier": "^3.1.3",
+    "eslint-plugin-jest": "^23.13.2",
+    "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-react": "^7.20.0",
     "jest": "^26.0.1",
     "prettier": "^2.0.5",
-    "ts-jest": "^26.0.0"
+    "ts-jest": "^26.1.0"
   },
   "devDependencies": {
-    "@types/node": "^14.0.5",
+    "@types/node": "^14.0.13",
     "typescript": "^3.5.3"
   },
   "peerDependencies": {
