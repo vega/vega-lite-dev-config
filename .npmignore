@@ -1,5 +1,0 @@
-.github
-.prettierignore
-beemo-error.log
-node_modules
-prettier.config.js

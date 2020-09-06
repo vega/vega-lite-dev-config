@@ -4,7 +4,7 @@ const {context} = process.beemo;
 
 const config: ESLintConfig = {
   parser: '@typescript-eslint/parser',
-  plugins: ['@typescript-eslint', 'prettier', ...(context.args.react ? ['react'] : [])],
+  plugins: ['@typescript-eslint', 'prettier', 'jest', ...(context.args.react ? ['react'] : [])],
   extends: [
     'eslint:recommended',
     'plugin:jest/recommended',
@@ -32,13 +32,14 @@ const config: ESLintConfig = {
     ...(context.args.react ? {jsx: true} : {}),
   },
   rules: {
-    'prettier/prettier': 'error',
+    'prettier/prettier': 'warn',
     // https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/eslint-plugin#supported-rules
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/no-explicit-any': 'off',
     '@typescript-eslint/no-use-before-define': 'off',
+    '@typescript-eslint/ban-types': 'warn',
     '@typescript-eslint/prefer-for-of': 'error',
-    '@typescript-eslint/no-for-in-array': 'error', // requires type information
+    '@typescript-eslint/no-for-in-array': 'error',
     '@typescript-eslint/no-require-imports': 'error',
     '@typescript-eslint/no-parameter-properties': 'off',
     '@typescript-eslint/explicit-member-accessibility': 'off',
@@ -53,7 +54,7 @@ const config: ESLintConfig = {
       },
     ],
     '@typescript-eslint/no-object-literal-type-assertion': 'off', // we can do this later
-    '@typescript-eslint/no-namespace': 'off', // we can do this later
+    '@typescript-eslint/no-namespace': 'error',
     // https://eslint.org/docs/rules/
     'linebreak-style': ['error', 'unix'],
     'no-irregular-whitespace': ['error', {skipComments: true}],
@@ -68,7 +69,16 @@ const config: ESLintConfig = {
     'no-undef': 'off', // typescript takes care of this for us
     'no-unreachable': 'off', // typescript takes care of this for us
   },
-  ignore: ['.eslintrc.js', 'prettier.config.js', 'rollup.config.js', 'build', 'build-es5', 'dist'],
+  ignore: [
+    '.eslintrc.js',
+    'babel.config.js',
+    'prettier.config.js',
+    'jest.config.js',
+    'rollup.config.js',
+    'build',
+    'build-es5',
+    'dist',
+  ],
 };
 
 export default config;

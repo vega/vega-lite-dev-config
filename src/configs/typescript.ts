@@ -1,37 +1,28 @@
 import {TypeScriptConfig} from '@beemo/driver-typescript';
 
+const {context} = process.beemo;
+
 const config: TypeScriptConfig = {
   compilerOptions: {
     target: 'es6',
     module: 'es2015',
     moduleResolution: 'node',
-
-    outDir: './build/',
+    noEmit: true,
 
     declaration: true,
     declarationMap: true,
     sourceMap: true,
+
     esModuleInterop: true,
-
+    strict: true,
     allowSyntheticDefaultImports: true,
-    inlineSources: true,
     importHelpers: true,
-    isolatedModules: false,
-    jsx: 'react',
-    noImplicitAny: true,
-    noImplicitReturns: true,
-    noImplicitThis: true,
-    noUnusedLocals: true,
-    preserveConstEnums: true,
-    removeComments: false,
+    ...(context.args.react ? {jsx: 'react'} : {}),
     resolveJsonModule: true,
-    suppressImplicitAnyIndexErrors: true,
-
-    incremental: true,
 
     typeRoots: ['node_modules/@types', 'types'],
   },
-  files: ['src/index.ts'],
+  include: ['src/*.ts', 'test/*.ts'],
 };
 
 export default config;

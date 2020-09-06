@@ -12,7 +12,7 @@ const config: PrettierConfig & {overrides: [{files: string; options: PrettierCon
       },
     },
   ],
-  ignore: ['.eslintrc.js', 'prettier.config.js', '.prettierrc.js'],
+  ignore: ['.eslintrc.js', 'babel.config.js', 'jest.config.js', 'prettier.config.js', 'tsconfig.json'],
 };
 
 export default config;
