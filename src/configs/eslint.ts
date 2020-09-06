@@ -78,6 +78,7 @@ const config: ESLintConfig = {
     'build',
     'build-es5',
     'dist',
+    'coverage'
   ],
 };
 
