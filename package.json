@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/vega/vega-lite-dev-config#readme",
   "files": [
+    "index.js",
     "lib",
     "templates"
   ],
