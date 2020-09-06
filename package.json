@@ -1,6 +1,6 @@
 {
   "name": "vega-lite-dev-config",
-  "version": "0.13.0",
+  "version": "0.14.0",
   "description": "Version-controlled build config for easy re-use and sharing",
   "repository": {
     "type": "git",
@@ -35,11 +35,11 @@
     "@typescript-eslint/eslint-plugin": "^4.0.1",
     "@typescript-eslint/parser": "^4.0.1",
     "babel-jest": "^26.3.0",
+    "eslint": "^7.8.1",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-jest": "^24.0.0",
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-react": "^7.20.6",
-    "eslint": "^7.8.1",
     "jest": "^26.4.2",
     "prettier": "^2.1.1"
   },
