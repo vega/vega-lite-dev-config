@@ -22,7 +22,7 @@ const config: TypeScriptConfig = {
 
     typeRoots: ['node_modules/@types', 'types'],
   },
-  include: ['src/*.ts', 'test/*.ts'],
+  include: ['src/**/*.ts', 'test/**/*.ts'],
 };
 
 export default config;
