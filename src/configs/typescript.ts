@@ -9,18 +9,12 @@ const config: TypeScriptConfig = {
     moduleResolution: 'node',
     noEmit: true,
 
-    declaration: true,
-    declarationMap: true,
-    sourceMap: true,
-
     esModuleInterop: true,
     strict: true,
     allowSyntheticDefaultImports: true,
     importHelpers: true,
     ...(context.args.react ? {jsx: 'react'} : {}),
-    resolveJsonModule: true,
-
-    typeRoots: ['node_modules/@types', 'types'],
+    resolveJsonModule: true
   },
   include: ['src/**/*.ts', 'test/**/*.ts'],
 };

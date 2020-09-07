@@ -58,6 +58,7 @@
     ]
   },
   "scripts": {
+    "build": "tsc",
     "prepare": "tsc && beemo create-config",
     "lint": "beemo prettier --check \"./src/**/*.ts\"",
     "format": "beemo prettier --write \"./src/**/*.ts\""
