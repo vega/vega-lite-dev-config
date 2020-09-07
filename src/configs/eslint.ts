@@ -53,6 +53,8 @@ const config: ESLintConfig = {
         ignoreRestSiblings: true,
       },
     ],
+    'no-shadow': 'off',
+    '@typescript-eslint/no-shadow': 'error',
     '@typescript-eslint/no-object-literal-type-assertion': 'off', // we can do this later
     '@typescript-eslint/no-namespace': 'error',
     // https://eslint.org/docs/rules/
@@ -62,8 +64,6 @@ const config: ESLintConfig = {
     'prefer-const': 'error',
     'no-return-assign': 'error',
     'no-useless-call': 'error',
-    'no-shadow': 'off',
-    '@typescript-eslint/no-shadow': 'error',
     'no-useless-concat': 'error',
     // "prefer-template": "error",  // we can do this later
     'no-console': 'off', // we use console
