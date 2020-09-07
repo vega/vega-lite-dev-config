@@ -62,7 +62,8 @@ const config: ESLintConfig = {
     'prefer-const': 'error',
     'no-return-assign': 'error',
     'no-useless-call': 'error',
-    'no-shadow': 'error',
+    'no-shadow': 'off',
+    '@typescript-eslint/no-shadow': 'error',
     'no-useless-concat': 'error',
     // "prefer-template": "error",  // we can do this later
     'no-console': 'off', // we use console
