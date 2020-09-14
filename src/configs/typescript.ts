@@ -14,7 +14,7 @@ const config: TypeScriptConfig = {
     allowSyntheticDefaultImports: true,
     importHelpers: true,
     ...(context.args.react ? {jsx: 'react'} : {}),
-    resolveJsonModule: true
+    resolveJsonModule: true,
   },
   include: ['src/**/*.ts', 'test/**/*.ts'],
 };
