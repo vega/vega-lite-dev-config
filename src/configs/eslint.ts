@@ -4,14 +4,12 @@ const {context} = process.beemo;
 
 const config: ESLintConfig = {
   parser: '@typescript-eslint/parser',
-  plugins: ['@typescript-eslint', 'prettier', 'jest', ...(context.args.react ? ['react'] : [])],
+  plugins: ['@typescript-eslint', 'jest', 'prettier', ...(context.args.react ? ['react'] : [])],
   extends: [
     'eslint:recommended',
     'plugin:jest/recommended',
     'plugin:jest/style',
     'plugin:@typescript-eslint/recommended',
-    'prettier',
-    'prettier/@typescript-eslint',
     'plugin:prettier/recommended',
     ...(context.args.react ? ['plugin:react/recommended'] : []),
   ],
