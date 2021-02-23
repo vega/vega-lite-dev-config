@@ -1,6 +1,6 @@
 import {ESLintConfig} from '@beemo/driver-eslint';
 
-const {context} = process.beemo;
+const {context} = process.beemo as any; // FIXME: https://github.com/beemojs/beemo/issues/112
 
 const config: ESLintConfig = {
   parser: '@typescript-eslint/parser',
@@ -79,6 +79,6 @@ const config: ESLintConfig = {
     'dist',
     'coverage',
   ],
-};
+} as any; // FIXME: https://github.com/beemojs/beemo/issues/113
 
 export default config;

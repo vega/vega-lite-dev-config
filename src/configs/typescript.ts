@@ -1,6 +1,6 @@
 import {TypeScriptConfig} from '@beemo/driver-typescript';
 
-const {context} = process.beemo;
+const {context} = process.beemo as any; // FIXME: https://github.com/beemojs/beemo/issues/112
 
 const config: TypeScriptConfig = {
   compilerOptions: {
