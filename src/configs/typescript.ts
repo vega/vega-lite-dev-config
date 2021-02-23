@@ -1,6 +1,6 @@
 import {TypeScriptConfig} from '@beemo/driver-typescript';
 
-const {context} = process.beemo as any; // FIXME: https://github.com/beemojs/beemo/issues/112
+const {context} = process.beemo
 
 const config: TypeScriptConfig = {
   compilerOptions: {
@@ -13,7 +13,7 @@ const config: TypeScriptConfig = {
     strict: true,
     allowSyntheticDefaultImports: true,
     importHelpers: true,
-    ...(context.args.react ? {jsx: 'react'} : {}),
+    ...(context.getRiskyOption('react') ? {jsx: 'react'} : {}),
     resolveJsonModule: true,
   },
   include: ['src/**/*.ts', 'test/**/*.ts'],

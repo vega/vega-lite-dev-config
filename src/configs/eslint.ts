@@ -1,24 +1,24 @@
 import {ESLintConfig} from '@beemo/driver-eslint';
 
-const {context} = process.beemo as any; // FIXME: https://github.com/beemojs/beemo/issues/112
+const {context} = process.beemo;
 
 const config: ESLintConfig = {
   parser: '@typescript-eslint/parser',
-  plugins: ['@typescript-eslint', 'jest', 'prettier', ...(context.args.react ? ['react'] : [])],
+  plugins: ['@typescript-eslint', 'jest', 'prettier', ...(context.getRiskyOption('react') ? ['react'] : [])],
   extends: [
     'eslint:recommended',
     'plugin:jest/recommended',
     'plugin:jest/style',
     'plugin:@typescript-eslint/recommended',
     'plugin:prettier/recommended',
-    ...(context.args.react ? ['plugin:react/recommended'] : []),
+    ...(context.getRiskyOption('react') ? ['plugin:react/recommended'] : []),
   ],
   overrides: [
     {
-      files: ['*.ts', ...(context.args.react ? ['*.tsx'] : [])],
+      files: ['*.ts', ...(context.getRiskyOption('react') ? ['*.tsx'] : [])],
     },
   ],
-  ...(context.args.react ? {settings: {react: {version: 'detect'}}} : {}),
+  ...(context.getRiskyOption('react') ? {settings: {react: {version: 'detect'}}} : {}),
   env: {
     browser: true,
     node: true,
@@ -27,7 +27,7 @@ const config: ESLintConfig = {
     project: 'tsconfig.json',
     ecmaVersion: 2018, // Allows for the parsing of modern ECMAScript features
     sourceType: 'module', // Allows for the use of imports
-    ...(context.args.react ? {jsx: true} : {}),
+    ...(context.getRiskyOption('react') ? {jsx: true} : {}),
   },
   rules: {
     'prettier/prettier': 'warn',
