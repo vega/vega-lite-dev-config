@@ -79,6 +79,6 @@ const config: ESLintConfig = {
     'dist',
     'coverage',
   ],
-} as any; // FIXME: https://github.com/beemojs/beemo/issues/113
+};
 
 export default config;
