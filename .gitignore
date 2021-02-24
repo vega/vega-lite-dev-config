@@ -1,5 +1,5 @@
 .prettierignore
 beemo-error.log
-lib
 node_modules
 prettier.config.js
+tsconfig.json
