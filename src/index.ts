@@ -1,4 +1,6 @@
-module.exports = function(tool) {
+import {Tool} from '@beemo/core';
+
+module.exports = function(tool: Tool) {
   // ESLint
   tool.onRunDriver.listen(context => {
     context.addOptions(['--color']);
