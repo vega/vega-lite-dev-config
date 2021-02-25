@@ -1,8 +1,5 @@
-import {Tool} from '@beemo/core';
-
 /**
- * 
- * @param {Tool} tool 
+ * @param {import('@beemo/core').Tool} tool 
  */
 module.exports = function(tool) {
   // ESLint
