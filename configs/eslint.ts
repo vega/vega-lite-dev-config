@@ -1,24 +1,25 @@
 import {ESLintConfig} from '@beemo/driver-eslint';
 
 const {context} = process.beemo;
+const react = context.getRiskyOption('react');
 
 const config: ESLintConfig = {
   parser: '@typescript-eslint/parser',
-  plugins: ['@typescript-eslint', 'jest', 'prettier', ...(context.getRiskyOption('react') ? ['react'] : [])],
+  plugins: ['@typescript-eslint', 'jest', 'prettier', ...(react ? ['react'] : [])],
   extends: [
     'eslint:recommended',
     'plugin:jest/recommended',
     'plugin:jest/style',
     'plugin:@typescript-eslint/recommended',
     'plugin:prettier/recommended',
-    ...(context.getRiskyOption('react') ? ['plugin:react/recommended'] : []),
+    ...(react ? ['plugin:react/recommended'] : []),
   ],
   overrides: [
     {
-      files: ['*.ts', ...(context.getRiskyOption('react') ? ['*.tsx'] : [])],
+      files: ['*.ts', ...(react ? ['*.tsx'] : [])],
     },
   ],
-  ...(context.getRiskyOption('react') ? {settings: {react: {version: 'detect'}}} : {}),
+  ...(react ? {settings: {react: {version: 'detect'}}} : {}),
   env: {
     browser: true,
     node: true,
@@ -27,7 +28,7 @@ const config: ESLintConfig = {
     project: 'tsconfig.json',
     ecmaVersion: 2018, // Allows for the parsing of modern ECMAScript features
     sourceType: 'module', // Allows for the use of imports
-    ...(context.getRiskyOption('react') ? {jsx: true} : {}),
+    ...(react ? {jsx: true} : {}),
   },
   rules: {
     'prettier/prettier': 'warn',
