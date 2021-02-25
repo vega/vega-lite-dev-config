@@ -15,20 +15,27 @@ Before using the build config provided you should remove any older dependencies 
 
 ## Using drivers
 
-This project is built with [🤖beemo](https://github.com/milesj/beemo), and therefore requires a `".config/beemo.ts"` configuration file with a list of drivers you want to enable. You can optionally configure some drivers as shown below:
+This project is built with [beemo](https://github.com/milesj/beemo), and therefore requires a `".config/beemo.ts"` configuration file with a list of drivers you want to enable. You can optionally configure some drivers as shown below:
 
 ```ts
 // .config/beemo.ts
-module.exports = {
+import { Config } from "vega-lite-dev-config";
+
+const config: Config = {
   module: 'vega-lite-dev-config',
-  "drivers": {
-    "babel": true,
-    "prettier": true,
-    "eslint": true,
-    "jest": true,
-    "typescript": {
-      "buildFolder": "build"
+  drivers: {
+    babel: true,
+    prettier: true,
+    eslint: true,
+    jest: true,
+    typescript: {
+      buildFolder: "build"
     }
+  },
+  // optional settings for the vega-lite-dev-config
+  settings: {
+    node: true,
+    react: false
   }
 };
 ```
@@ -37,9 +44,9 @@ If you want to customize the drivers, you need to create overrides as described 
 
 ## Executing drivers
 
-Executing a driver will initialize 🤖 Beemo's pipeline, generate configuration files (e.g., it will generate a `.eslintrc` or `prettier.config.js`, and execute the underlying driver binary and logging to the console.
+Executing a driver will initialize Beemo's pipeline, generate configuration files (e.g., it will generate a `.eslintrc` or `prettier.config.js`, and execute the underlying driver binary and logging to the console.
 
-> All arguments passed to Beemo are passed to the driver's underlying binary.
+> All arguments passed to Beemo are passed to driver.
 
 You may define these commands as scripts in your package.json:
 
@@ -47,13 +54,15 @@ You may define these commands as scripts in your package.json:
 // package.json
 {
   "scripts": {
-    "prepare": "beemo create-config --react", // Remove --react if you do not use React
-    "prettierbase": "beemo prettier '{src,test,types}/**/*.{md,css}' # eslint takes care of tsx?/jsx?",
-    "eslintbase": "beemo eslint '{src,test,types}/**/*.{ts,tsx,js,jsx}'",
+    "prepare": "beemo create-config --silent",
+    "test": "beemo jest",
+    "test:inspect": "node --inspect-brk ./node_modules/.bin/jest --runInBand",
+    "prettierbase": "beemo prettier '*.{css,scss,html}'",
+    "eslintbase": "beemo eslint .",
     "format": "yarn eslintbase --fix && yarn prettierbase --write",
     "lint": "yarn eslintbase && yarn prettierbase --check",
-    "tsc": "beemo typescript",
-    "tsc:watch": "yarn run tsc --watch"
+    "types": "beemo typescript",
+    "types:watch": "beemo typescript --watch"
   }
 }
 ```

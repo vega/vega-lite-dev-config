@@ -1,7 +1,9 @@
+import {ConfigFile} from '@beemo/core';
 import {ESLintConfig} from '@beemo/driver-eslint';
+import {Settings} from '..';
 
-const {context} = process.beemo;
-const react = context.getRiskyOption('react');
+const {tool} = process.beemo;
+const {react = false, node = false} = (tool.config as ConfigFile<Settings>).settings;
 
 const config: ESLintConfig = {
   parser: '@typescript-eslint/parser',
@@ -22,7 +24,7 @@ const config: ESLintConfig = {
   ...(react ? {settings: {react: {version: 'detect'}}} : {}),
   env: {
     browser: true,
-    node: true,
+    node: node,
   },
   parserOptions: {
     project: 'tsconfig.json',
