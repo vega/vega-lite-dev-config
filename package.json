@@ -20,7 +20,8 @@
   "types": "index.d.ts",
   "files": [
     "configs",
-    "templates"
+    "templates",
+    "index.d.ts"
   ],
   "dependencies": {
     "@babel/core": "^7.13.1",
