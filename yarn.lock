@@ -878,19 +878,19 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@beemo/cli@2.0.0-alpha.1":
-  version "2.0.0-alpha.1"
-  resolved "https://registry.yarnpkg.com/@beemo/cli/-/cli-2.0.0-alpha.1.tgz#4f15b669e34c0107e174768f0cc35fdc191c4333"
-  integrity sha512-yCQeG7WmwJzm+6wrL94teNBsKxPlux9VscVL6p0ok7jVL+HMLiCKd0P0tyaODtUkvIO8oafUH2pQjjpfB4YmMw==
+"@beemo/cli@2.0.0-alpha.2":
+  version "2.0.0-alpha.2"
+  resolved "https://registry.yarnpkg.com/@beemo/cli/-/cli-2.0.0-alpha.2.tgz#7439fb5b755c6b936f8ea4cd23c657608d667d0e"
+  integrity sha512-lDSl2Eed/XDI67mrcXnOxDlAO3NxIp9Idm0uNMgiRnMWl4NzJxx45sCK+VToeYxhJcJgYyf91HnOp7aAlimenA==
   dependencies:
     "@boost/cli" "^2.10.1"
     ink "^3.0.8"
     react "^16.13.1"
 
-"@beemo/core@2.0.0-alpha.2":
-  version "2.0.0-alpha.2"
-  resolved "https://registry.yarnpkg.com/@beemo/core/-/core-2.0.0-alpha.2.tgz#5096a6c8acccce012018a93b4320eec653d0fb06"
-  integrity sha512-fkwBaXPz7TuTql8OZEn0mgsCTjO6stvtwHhyZvoJ/wc5vM1uhVrDXzMKucJQFkcILuRhVzJw/7dYDrEh/fQtXQ==
+"@beemo/core@2.0.0-alpha.3":
+  version "2.0.0-alpha.3"
+  resolved "https://registry.yarnpkg.com/@beemo/core/-/core-2.0.0-alpha.3.tgz#a9f6c8de8c6269f4905f93c89a887e5b964ecf05"
+  integrity sha512-67ES0LucIilg5HRldKud+CDo+iKgpHZFI3iItX6DpnRF60cM2STaFWbjjTNtBOMT5+MaVfV8I6IGRd0YkU6scw==
   dependencies:
     "@boost/args" "^2.3.1"
     "@boost/common" "^2.7.1"
@@ -910,40 +910,40 @@
     lodash "^4.17.15"
     micromatch "^4.0.2"
 
-"@beemo/driver-babel@2.0.0-alpha.2":
-  version "2.0.0-alpha.2"
-  resolved "https://registry.yarnpkg.com/@beemo/driver-babel/-/driver-babel-2.0.0-alpha.2.tgz#358fd07fbb02d2bbb58dc04db67aa59262fee3cf"
-  integrity sha512-Y4MHk/IZeSCXJEf21kcZ6o4awyVH43XtB/+FV6WIuQdFK16V8EuaKQ0WXycVzW44Lj3Sv6yjANlZGV6r0VeNVQ==
+"@beemo/driver-babel@2.0.0-alpha.3":
+  version "2.0.0-alpha.3"
+  resolved "https://registry.yarnpkg.com/@beemo/driver-babel/-/driver-babel-2.0.0-alpha.3.tgz#2dc486ca17238d40a2802d81259f83b10bd69eaf"
+  integrity sha512-FmJNuBBP1SuNg6hPvUFiVgZbLF5ILvVoN2az1+cvGZWcs/1RY8meRhIptzxNiiKl7SIqa8t9zpP57/LfImLw8g==
   dependencies:
     rimraf "^3.0.2"
 
-"@beemo/driver-eslint@2.0.0-alpha.2":
-  version "2.0.0-alpha.2"
-  resolved "https://registry.yarnpkg.com/@beemo/driver-eslint/-/driver-eslint-2.0.0-alpha.2.tgz#ee6b2e76927b6f557298e17a66828a5940e4002e"
-  integrity sha512-SEdBTj9vKG+E3posIwTq29/GBCBx6S5f6tR+B6SmZICdRBaxeni2dmL/yIZY83sYqZIux8Yo+ARRWGJ4QLuFcQ==
+"@beemo/driver-eslint@2.0.0-alpha.3":
+  version "2.0.0-alpha.3"
+  resolved "https://registry.yarnpkg.com/@beemo/driver-eslint/-/driver-eslint-2.0.0-alpha.3.tgz#b927470600b3addeff510c2d17573217f0bb5dbf"
+  integrity sha512-uq/Q1AYKizC6Qk4ioD3wy6oJ/1TaVWDJISaZFa8bdHDwdwInat+3CBifv3BcOARXR0R0lnOOvwXiCd6zsRmiAQ==
   dependencies:
     "@boost/event" "^2.3.1"
     "@types/eslint" "*"
 
-"@beemo/driver-jest@2.0.0-alpha.1":
-  version "2.0.0-alpha.1"
-  resolved "https://registry.yarnpkg.com/@beemo/driver-jest/-/driver-jest-2.0.0-alpha.1.tgz#2bd8c263eea4f7609048ddffffb0546a0535130d"
-  integrity sha512-v4FKrqBK6Cx3yRvNGLthITTy6FR69uBrm/EjUQRH7HAyblo0iwqr4VfGIGI58MRbiThsxtcdL3bsfSSlp3wFJQ==
+"@beemo/driver-jest@2.0.0-alpha.2":
+  version "2.0.0-alpha.2"
+  resolved "https://registry.yarnpkg.com/@beemo/driver-jest/-/driver-jest-2.0.0-alpha.2.tgz#578fb6ff5151e64ada02a4755d07a4c354c33b3d"
+  integrity sha512-s2/LVNdTmnFreXdgNW/+oCEEOEvSb97MJ4/hnfG/MRVrT7KrUW7GJPE9EaRE1Z+XdAjvlGjxByksX1shJDPjOg==
   dependencies:
     "@jest/types" "^26.3.0"
 
-"@beemo/driver-prettier@2.0.0-alpha.1":
-  version "2.0.0-alpha.1"
-  resolved "https://registry.yarnpkg.com/@beemo/driver-prettier/-/driver-prettier-2.0.0-alpha.1.tgz#68d2f6994c16609bba58768778c81492968f78b9"
-  integrity sha512-VA80KJ1dChCWhuc2suceZ4uJ/tR9iW/C0hB58P9qnblBqJgfxTYxpSdXD++m9AnNB1JFktCo/wu2U0xpSmglNQ==
+"@beemo/driver-prettier@2.0.0-alpha.2":
+  version "2.0.0-alpha.2"
+  resolved "https://registry.yarnpkg.com/@beemo/driver-prettier/-/driver-prettier-2.0.0-alpha.2.tgz#0a6fd54758ced6d7aef26a1515fa0beb04d5c079"
+  integrity sha512-o78bFHgVF+FNXMD+E/1Lln4RGeq4UXe/lOZbE3rnz3PV8qPrg8gQviCn8oy5heNlpCkRa+dr3RH/2JZwFHKdvQ==
   dependencies:
     "@boost/event" "^2.3.1"
     "@types/prettier" "*"
 
-"@beemo/driver-typescript@2.0.0-alpha.2":
-  version "2.0.0-alpha.2"
-  resolved "https://registry.yarnpkg.com/@beemo/driver-typescript/-/driver-typescript-2.0.0-alpha.2.tgz#9f601ac638288bc25c0d34080555a0a90e92d4fc"
-  integrity sha512-3/GPlla4W2U8ODh+w01oIPfczdHPNRgy9qZyifPd8Ezru/g02RdJrwlacFTNa8o2pNmqjwAlzcEfM3moMPpxAg==
+"@beemo/driver-typescript@2.0.0-alpha.3":
+  version "2.0.0-alpha.3"
+  resolved "https://registry.yarnpkg.com/@beemo/driver-typescript/-/driver-typescript-2.0.0-alpha.3.tgz#dd8dd3658f3b302e14cf2181cf8ca87d619d5e7a"
+  integrity sha512-tYtswY43Zp8PtZjDTqYyrJhv1UjjBCOlD095g10RWuqtaVB2dHrE6+jGSoPegAbtx/Wqw2wE1HlMCT2keZ8ZKA==
   dependencies:
     "@boost/event" "^2.3.1"
     rimraf "^3.0.2"
@@ -2471,10 +2471,10 @@ escodegen@^1.14.1:
   optionalDependencies:
     source-map "~0.6.1"
 
-eslint-config-prettier@^8.0.0:
-  version "8.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-8.0.0.tgz#024d661444319686c588c8849c8da33815dbdb1c"
-  integrity sha512-5EaAVPsIHu+grmm5WKjxUia4yHgRrbkd8I0ffqUSwixCPMVBrbS97UnzlEY/Q7OWo584vgixefM0kJnUfo/VjA==
+eslint-config-prettier@^8.1.0:
+  version "8.1.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-8.1.0.tgz#4ef1eaf97afe5176e6a75ddfb57c335121abc5a6"
+  integrity sha512-oKMhGv3ihGbCIimCAjqkdzx2Q+jthoqnXSP+d86M9tptwugycmTFdVR4IpLgq2c4SHifbwO90z2fQ8/Aio73yw==
 
 eslint-plugin-jest@^24.1.5:
   version "24.1.5"

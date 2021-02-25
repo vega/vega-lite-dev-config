@@ -1,6 +1,10 @@
 import {Tool} from '@beemo/core';
 
-module.exports = function(tool: Tool) {
+/**
+ * 
+ * @param {Tool} tool 
+ */
+module.exports = function(tool) {
   // ESLint
   tool.onRunDriver.listen(context => {
     context.addOptions(['--color']);
