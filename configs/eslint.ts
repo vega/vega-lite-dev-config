@@ -1,33 +1,36 @@
+import {ConfigFile} from '@beemo/core';
 import {ESLintConfig} from '@beemo/driver-eslint';
+import {Settings} from '..';
 
-const {context} = process.beemo;
+const {tool} = process.beemo;
+const {react = false, node = false} = (tool.config as ConfigFile<Settings>).settings;
 
 const config: ESLintConfig = {
   parser: '@typescript-eslint/parser',
-  plugins: ['@typescript-eslint', 'jest', 'prettier', ...(context.args.react ? ['react'] : [])],
+  plugins: ['@typescript-eslint', 'jest', 'prettier', ...(react ? ['react'] : [])],
   extends: [
     'eslint:recommended',
     'plugin:jest/recommended',
     'plugin:jest/style',
     'plugin:@typescript-eslint/recommended',
     'plugin:prettier/recommended',
-    ...(context.args.react ? ['plugin:react/recommended'] : []),
+    ...(react ? ['plugin:react/recommended'] : []),
   ],
   overrides: [
     {
-      files: ['*.ts', ...(context.args.react ? ['*.tsx'] : [])],
+      files: ['*.ts', ...(react ? ['*.tsx'] : [])],
     },
   ],
-  ...(context.args.react ? {settings: {react: {version: 'detect'}}} : {}),
+  ...(react ? {settings: {react: {version: 'detect'}}} : {}),
   env: {
     browser: true,
-    node: true,
+    node: node,
   },
   parserOptions: {
     project: 'tsconfig.json',
     ecmaVersion: 2018, // Allows for the parsing of modern ECMAScript features
     sourceType: 'module', // Allows for the use of imports
-    ...(context.args.react ? {jsx: true} : {}),
+    ...(react ? {jsx: true} : {}),
   },
   rules: {
     'prettier/prettier': 'warn',

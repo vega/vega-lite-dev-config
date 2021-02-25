@@ -1,6 +1,9 @@
+import {ConfigFile} from '@beemo/core';
 import {TypeScriptConfig} from '@beemo/driver-typescript';
+import {Settings} from '..';
 
-const {context} = process.beemo;
+const {tool} = process.beemo;
+const {react = false} = (tool.config as ConfigFile<Settings>).settings;
 
 const config: TypeScriptConfig = {
   compilerOptions: {
@@ -13,7 +16,7 @@ const config: TypeScriptConfig = {
     strict: true,
     allowSyntheticDefaultImports: true,
     importHelpers: true,
-    ...(context.args.react ? {jsx: 'react'} : {}),
+    ...(react ? {jsx: 'react'} : {}),
     resolveJsonModule: true,
   },
   include: ['src/**/*.ts', 'test/**/*.ts'],

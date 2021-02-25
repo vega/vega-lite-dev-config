@@ -1,3 +1,6 @@
+/**
+ * @param {import('@beemo/core').Tool} tool 
+ */
 module.exports = function(tool) {
   // ESLint
   tool.onRunDriver.listen(context => {
