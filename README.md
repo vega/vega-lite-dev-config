@@ -35,7 +35,10 @@ const config: Config = {
   // optional settings for the vega-lite-dev-config
   settings: {
     node: true,
-    react: false
+    react: false,
+    babel: {
+      jest: true
+    }
   }
 };
 ```
