@@ -1,4 +1,4 @@
-import { ConfigFile } from "@beemo/core";
+import { BeemoConfig } from "@beemo/core";
 
 export interface Settings {
   /**
@@ -12,4 +12,4 @@ export interface Settings {
   react?: boolean;
 }
 
-export type Config = Partial<ConfigFile<Settings>>;
+export type Config = BeemoConfig<Settings>;
