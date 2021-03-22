@@ -27,7 +27,7 @@
     "@babel/core": "^7.13.8",
     "@babel/preset-env": "^7.13.9",
     "@babel/preset-typescript": "^7.13.0",
-    "@beemo/cli": "2.0.0-alpha.2",
+    "@beemo/cli": "2.0.0-rc.0",
     "@beemo/core": "2.0.0-alpha.4",
     "@beemo/driver-babel": "2.0.0-rc.0",
     "@beemo/driver-eslint": "2.0.0-rc.0",
