@@ -32,7 +32,7 @@
     "@beemo/driver-babel": "2.0.0-rc.0",
     "@beemo/driver-eslint": "2.0.0-alpha.3",
     "@beemo/driver-jest": "2.0.0-rc.0",
-    "@beemo/driver-prettier": "2.0.0-alpha.2",
+    "@beemo/driver-prettier": "2.0.0-rc.0",
     "@beemo/driver-typescript": "2.0.0-alpha.3",
     "@types/jest": "^26.0.20",
     "@typescript-eslint/eslint-plugin": "^4.16.1",
