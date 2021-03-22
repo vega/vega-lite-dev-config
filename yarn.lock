@@ -884,10 +884,10 @@
     ink "^3.0.8"
     react "^16.13.1"
 
-"@beemo/core@2.0.0-alpha.4":
-  version "2.0.0-alpha.4"
-  resolved "https://registry.yarnpkg.com/@beemo/core/-/core-2.0.0-alpha.4.tgz#14678c30f5e9be4c6f4636c3e4328669b48b7efe"
-  integrity sha512-ai9Es8vUYxVHRXke6VJ4WY4o5JBvEjBEo6I6kqlzZnfLEdJdnnmGjuGOR6EnfqqwCaknqMRQuWfzdzzD6ri4qQ==
+"@beemo/core@2.0.0-rc.0":
+  version "2.0.0-rc.0"
+  resolved "https://registry.yarnpkg.com/@beemo/core/-/core-2.0.0-rc.0.tgz#6b526fc56ad330f9dd4098a018313e5cee9e6337"
+  integrity sha512-yVwO3bqZriM+IVLXvtSxI29bW9WeiHtKYXUufCr+bEntPEyv9iFzMLH820cKeeoC50GJLzQqbYDcymPfFqRXFw==
   dependencies:
     "@boost/args" "^2.3.1"
     "@boost/common" "^2.7.1"
