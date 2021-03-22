@@ -914,10 +914,10 @@
   dependencies:
     rimraf "^3.0.2"
 
-"@beemo/driver-eslint@2.0.0-alpha.3":
-  version "2.0.0-alpha.3"
-  resolved "https://registry.yarnpkg.com/@beemo/driver-eslint/-/driver-eslint-2.0.0-alpha.3.tgz#b927470600b3addeff510c2d17573217f0bb5dbf"
-  integrity sha512-uq/Q1AYKizC6Qk4ioD3wy6oJ/1TaVWDJISaZFa8bdHDwdwInat+3CBifv3BcOARXR0R0lnOOvwXiCd6zsRmiAQ==
+"@beemo/driver-eslint@2.0.0-rc.0":
+  version "2.0.0-rc.0"
+  resolved "https://registry.yarnpkg.com/@beemo/driver-eslint/-/driver-eslint-2.0.0-rc.0.tgz#a5fe7836593fb36596b834d944d037b32af37511"
+  integrity sha512-seZBoU3+Xcfzx6X3w9oq4W36/9hW5Tmh7sEy61wiQ2sOFZdSjJUz6rpHd2pbpchUfcjc4DiSIzhSiFTwMsbNeA==
   dependencies:
     "@boost/event" "^2.3.1"
     "@types/eslint" "*"
