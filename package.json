@@ -23,6 +23,9 @@
     "templates",
     "index.d.ts"
   ],
+  "bin": {
+    "beemo": "./bin/beemo.js"
+  },
   "dependencies": {
     "@babel/core": "^7.13.14",
     "@babel/preset-env": "^7.13.12",
