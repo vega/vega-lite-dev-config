@@ -1,0 +1,30 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: weekly
+    day: sunday
+    time: "23:00"
+    timezone: PST8PDT
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: "@beemo/cli"
+    versions:
+    - 2.0.0-rc.0
+  - dependency-name: "@beemo/driver-typescript"
+    versions:
+    - 2.0.0-rc.0
+  - dependency-name: "@beemo/core"
+    versions:
+    - 2.0.0-rc.0
+  - dependency-name: eslint-config-prettier
+    versions:
+    - 8.0.0
+- package-ecosystem: github-actions
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "23:00"
+    timezone: PST8PDT
+  open-pull-requests-limit: 10
