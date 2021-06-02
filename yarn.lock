@@ -1063,10 +1063,10 @@
   dependencies:
     "@jest/types" "^26.3.0"
 
-"@beemo/driver-prettier@2.0.0-rc.1":
-  version "2.0.0-rc.1"
-  resolved "https://registry.yarnpkg.com/@beemo/driver-prettier/-/driver-prettier-2.0.0-rc.1.tgz#eadfc47fb722f8c559bdb957ab418b6251529487"
-  integrity sha512-RmrXHydHhy3o736h+Zcv//E1F/zJU5U5niDYutURJ6VyzMGZPEcVBbNa8y8JGihBx9nngDgVIuGb8Z6txTQXXA==
+"@beemo/driver-prettier@2.0.0-rc.2":
+  version "2.0.0-rc.2"
+  resolved "https://registry.yarnpkg.com/@beemo/driver-prettier/-/driver-prettier-2.0.0-rc.2.tgz#e0d4ded669fd9c543adac5240a0790403cb3ef88"
+  integrity sha512-muhxiw6R6W7GLx0ODKuiUDaFjjF7/Lmd1SSEKPdeysWNguvyAnkrteTMmpjyl4as0PmgKKO+na1CIJZJKJz/Mg==
   dependencies:
     "@boost/event" "^2.3.2"
     "@types/prettier" "*"
