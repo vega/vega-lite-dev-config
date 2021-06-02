@@ -967,12 +967,12 @@
     "@boost/event" "^2.3.2"
     "@types/eslint" "*"
 
-"@beemo/driver-jest@2.0.0-rc.0":
-  version "2.0.0-rc.0"
-  resolved "https://registry.yarnpkg.com/@beemo/driver-jest/-/driver-jest-2.0.0-rc.0.tgz#44f9ab9f0694976b1981398dc33d16c20f5b5290"
-  integrity sha512-/X4d0dzr1SmMYWx4MNsfuckXTwxLpXgsUnl+yvvjxa3WBZR1XErSMSC7ZILqs55pVXB0Nn4S5qFDz/oDNkuQ2Q==
+"@beemo/driver-jest@2.0.0-rc.1":
+  version "2.0.0-rc.1"
+  resolved "https://registry.yarnpkg.com/@beemo/driver-jest/-/driver-jest-2.0.0-rc.1.tgz#219c1f60518a63ff953c8e62a14e478517d89301"
+  integrity sha512-EdT+uznpb0pzDFfEs1H3uoMz4LNnUAo6S47RxzVKw5bG3j6R+fU/ZbF7DEvynck9xrdV3fcM7TpCvqK7mNYNeg==
   dependencies:
-    "@jest/types" "^26.3.0"
+    "@jest/types" "^26.6.2"
 
 "@beemo/driver-prettier@2.0.0-rc.2":
   version "2.0.0-rc.2"
@@ -1321,7 +1321,7 @@
     source-map "^0.6.1"
     write-file-atomic "^3.0.0"
 
-"@jest/types@^26.3.0", "@jest/types@^26.6.2":
+"@jest/types@^26.6.2":
   version "26.6.2"
   resolved "https://registry.yarnpkg.com/@jest/types/-/types-26.6.2.tgz#bef5a532030e1d88a2f5a6d933f84e97226ed48e"
   integrity sha512-fC6QCp7Sc5sX6g8Tvbmj4XUTbyrik0akgRy03yjXbQaBWWNWGE7SGtJk98m0N8nzegD/7SggrUlivxo5ax4KWQ==
