@@ -997,10 +997,10 @@
     "@boost/event" "^2.3.2"
     "@types/prettier" "*"
 
-"@beemo/driver-typescript@2.0.0-rc.1":
-  version "2.0.0-rc.1"
-  resolved "https://registry.yarnpkg.com/@beemo/driver-typescript/-/driver-typescript-2.0.0-rc.1.tgz#155c13e11605ee2b5e6dd24e2f5ec41204171632"
-  integrity sha512-A7sp5isWa6fBFb6/3ae364K07OzRq0vYqmn6vaZmEPgRAxBbPC1HIF+CaT2QVD1J9Bq8HA40yn0NTWKfxP59Ag==
+"@beemo/driver-typescript@2.0.0-rc.2":
+  version "2.0.0-rc.2"
+  resolved "https://registry.yarnpkg.com/@beemo/driver-typescript/-/driver-typescript-2.0.0-rc.2.tgz#606c47f0137e426e754d33a849ba80f958e20e47"
+  integrity sha512-fr6vYOfBBD/bvSqr/2Pem22hZsikjtBi1ZzABibz1foJwloiAeWeCX6yyCAuE3FXbLxyTIB0vcP8ovNDMk1YVQ==
   dependencies:
     "@boost/event" "^2.3.2"
     rimraf "^3.0.2"
