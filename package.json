@@ -30,7 +30,7 @@
     "@babel/core": "^7.14.3",
     "@babel/preset-env": "^7.14.4",
     "@babel/preset-typescript": "^7.13.0",
-    "@beemo/cli": "2.0.0-rc.2",
+    "@beemo/cli": "2.0.0-rc.3",
     "@beemo/core": "2.0.0-rc.2",
     "@beemo/driver-babel": "2.0.0-rc.2",
     "@beemo/driver-eslint": "2.0.0-rc.2",
