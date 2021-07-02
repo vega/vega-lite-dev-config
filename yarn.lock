@@ -1069,10 +1069,10 @@
     ink "^3.0.8"
     react "^16.14.0"
 
-"@beemo/core@2.0.0-rc.2":
-  version "2.0.0-rc.2"
-  resolved "https://registry.yarnpkg.com/@beemo/core/-/core-2.0.0-rc.2.tgz#4b8347c23fdf66842c735762e86d30e9242cecfe"
-  integrity sha512-GDLZ5JhY+qlI5jg9t1nZSYwy/GPjgxXrEin8YT4lVK5wq3KzFwgUfN2elriDwQP1UcO8iYJQPjR8UeR3YU687Q==
+"@beemo/core@2.0.0-rc.3":
+  version "2.0.0-rc.3"
+  resolved "https://registry.yarnpkg.com/@beemo/core/-/core-2.0.0-rc.3.tgz#b8c7af07ce33774170d57ae128ab2764a8e4cab3"
+  integrity sha512-FHRTUcnDbtTnvUfhEqQ5U64R2wcHElkBQzAoYl2XIFGdsQBcPYVc0GccE4HsBYsDUY45xIgiZfKC266NcAS2BQ==
   dependencies:
     "@boost/args" "^2.3.2"
     "@boost/common" "^2.7.2"
@@ -1084,7 +1084,7 @@
     "@boost/plugin" "^2.3.3"
     "@boost/terminal" "^2.2.1"
     "@boost/translate" "^2.2.5"
-    execa "^5.0.0"
+    execa "^5.1.1"
     fast-glob "^3.2.5"
     fs-extra "^9.1.0"
     hygen "^6.1.0"
@@ -2645,10 +2645,10 @@ execa@^4.0.0:
     signal-exit "^3.0.2"
     strip-final-newline "^2.0.0"
 
-execa@^5.0.0:
-  version "5.1.0"
-  resolved "https://registry.yarnpkg.com/execa/-/execa-5.1.0.tgz#3ea50ee863d226bfa323528cce1684e7481dfe46"
-  integrity sha512-CkdUB7s2y6S+d4y+OM/+ZtQcJCiKUCth4cNImGMqrt2zEVtW2rfHGspQBE1GDo6LjeNIQmTPKXqTCKjqFKyu3A==
+execa@^5.0.0, execa@^5.1.1:
+  version "5.1.1"
+  resolved "https://registry.yarnpkg.com/execa/-/execa-5.1.1.tgz#f80ad9cbf4298f7bd1d4c9555c21e93741c411dd"
+  integrity sha512-8uSpZZocAZRBAPIEINJj3Lo9HyGitllczc27Eh5YYojjMFMn8yHMDMaUHE2Jqfq05D/wucwI4JGURyXt1vchyg==
   dependencies:
     cross-spawn "^7.0.3"
     get-stream "^6.0.0"
