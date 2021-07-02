@@ -1104,10 +1104,10 @@
     lodash "^4.17.21"
     micromatch "^4.0.4"
 
-"@beemo/driver-babel@2.0.0-rc.2":
-  version "2.0.0-rc.2"
-  resolved "https://registry.yarnpkg.com/@beemo/driver-babel/-/driver-babel-2.0.0-rc.2.tgz#c5cc171a1be032dabeafe04080ebe71e9ac5687b"
-  integrity sha512-uRxQz4GhG3omSui/Wyvq0aWgWML6/LBhFEaf5zK+NaFYY/oD9ao09vR5FyqjyUnRT2j8fQ6RLqYk/85iCOLMRw==
+"@beemo/driver-babel@2.0.0-rc.3":
+  version "2.0.0-rc.3"
+  resolved "https://registry.yarnpkg.com/@beemo/driver-babel/-/driver-babel-2.0.0-rc.3.tgz#5d620e395722a74c105b1a844e60da1b70d46ca9"
+  integrity sha512-Vl2qquL1x0ppGfXRbXKOtz7cHBAAytiqpEjNK6gWNXn4Ysu45QCUgRLaEqVzeTkfcqDtScqTGOY1dJcA3vIbwQ==
   dependencies:
     rimraf "^3.0.2"
 
