@@ -33,7 +33,7 @@
     "@beemo/cli": "2.0.0-rc.3",
     "@beemo/core": "2.0.0-rc.2",
     "@beemo/driver-babel": "2.0.0-rc.3",
-    "@beemo/driver-eslint": "2.0.0-rc.2",
+    "@beemo/driver-eslint": "2.0.0-rc.3",
     "@beemo/driver-jest": "2.0.0-rc.2",
     "@beemo/driver-prettier": "2.0.0-rc.3",
     "@beemo/driver-typescript": "2.0.0-rc.3",
