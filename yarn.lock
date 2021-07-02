@@ -1071,10 +1071,10 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@beemo/cli@2.0.0-rc.2":
-  version "2.0.0-rc.2"
-  resolved "https://registry.yarnpkg.com/@beemo/cli/-/cli-2.0.0-rc.2.tgz#b0a7c79ada3aeebac6c27bc8dc0e94fb7bc2bdf9"
-  integrity sha512-c/JQDqW1WqzEFPjEHasm2rkfJDm9Q5tapm2D0/qwof5nth3CGEkxyk2+CCekzMZVtLr//BOvf/yG2oJb3ReMoA==
+"@beemo/cli@2.0.0-rc.3":
+  version "2.0.0-rc.3"
+  resolved "https://registry.yarnpkg.com/@beemo/cli/-/cli-2.0.0-rc.3.tgz#7ad1977ad608b84e678655f6d652cd938d0325dc"
+  integrity sha512-J0aq+ta7Nd+2q7t2bCX/MTW8AwrEDmrgtuZJxyMbNrqpwghTxnL18JOKFrnHS2PL4MBXpGxsot5QdByuTNmkRQ==
   dependencies:
     "@boost/cli" "^2.10.4"
     debug "^4.3.2"
