@@ -1,6 +1,6 @@
 {
   "name": "vega-lite-dev-config",
-  "version": "0.17.3",
+  "version": "0.18.0",
   "description": "Version-controlled build config for easy re-use and sharing",
   "repository": {
     "type": "git",
