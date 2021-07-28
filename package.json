@@ -27,11 +27,11 @@
     "beemo": "./bin/beemo.js"
   },
   "dependencies": {
-    "@babel/core": "^7.14.6",
-    "@babel/preset-env": "^7.14.7",
+    "@babel/core": "^7.14.8",
+    "@babel/preset-env": "^7.14.8",
     "@babel/preset-typescript": "^7.14.5",
-    "@beemo/cli": "2.0.0",
-    "@beemo/core": "2.0.0",
+    "@beemo/cli": "2.0.1",
+    "@beemo/core": "2.0.1",
     "@beemo/driver-babel": "2.0.0",
     "@beemo/driver-eslint": "2.0.0",
     "@beemo/driver-jest": "2.0.0",
@@ -39,11 +39,11 @@
     "@beemo/driver-typescript": "2.0.0",
     "@types/eslint": "^7.28.0",
     "@types/jest": "^26.0.24",
-    "@typescript-eslint/eslint-plugin": "^4.28.4",
-    "@typescript-eslint/parser": "^4.28.4",
+    "@typescript-eslint/eslint-plugin": "^4.28.5",
+    "@typescript-eslint/parser": "^4.28.5",
     "babel-jest": "^27.0.6",
     "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-jest": "^24.3.6",
+    "eslint-plugin-jest": "^24.4.0",
     "eslint-plugin-prettier": "^3.4.0",
     "eslint-plugin-react": "^7.24.0",
     "eslint": "^7.31.0",
@@ -52,7 +52,7 @@
     "typescript": "^4.3.5"
   },
   "devDependencies": {
-    "@types/node": "^15.14.1"
+    "@types/node": "^16.4.5"
   },
   "scripts": {
     "prepare": "beemo create-config",
