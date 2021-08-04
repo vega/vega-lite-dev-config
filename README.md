@@ -43,7 +43,7 @@ const config: Config = {
 };
 ```
 
-If you want to customize the drivers, you need to create overrides as described in [the Beemo docs](https://milesj.gitbook.io/beemo/consumer).
+If you want to customize the drivers, you need to create overrides as described in [the Beemo docs](https://beemo.dev/docs/consumer#overriding-configs).
 
 ## Executing drivers
 
