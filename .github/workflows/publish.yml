@@ -2,8 +2,9 @@ name: Publish
 
 on:
   push:
-    tags:
-      - 'v*'
+    branches-ignore:
+      # No canary deploys for branches opened by dependabot
+      - 'dependabot/**'
 
 jobs:
   publish:
@@ -13,12 +14,20 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
+
+      - name: Prepare repository
+        run: git fetch --unshallow --tags
+
       - uses: actions/setup-node@v2.3.0
         with:
           node-version: '14.x'
           registry-url: 'https://registry.npmjs.org'
+
       - name: Install Node dependencies
         run: yarn --frozen-lockfile
-      - run: npm publish
+
+      - name: Create release
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+            NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: yarn run release
