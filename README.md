@@ -69,3 +69,12 @@ You may define these commands as scripts in your package.json:
   }
 }
 ```
+
+## Publishing
+
+Publishing is handled by a 2-branch [pre-release process](https://intuit.github.io/auto/docs/generated/shipit#next-branch-default), configured in `publish.yml`. All changes should be based off the default `next` branch, and are published automatically unless a `skip-release` label is applied to the PR.
+
+- PRs made into the default branch are auto-deployed to the `next` pre-release tag on NPM. The result can be installed with `npm install vega-tooltip/@next`.
+  - When merging into `next`, please use the `squash and merge` strategy.
+- To release a new stable version, open a PR from `next` into `stable` using this [compare link](https://github.com/vega/vega-lite-dev-config/compare/stable...next).
+  - When merging from `next` into `stable`, please use the `create a merge commit` strategy.
