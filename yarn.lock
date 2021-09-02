@@ -1082,10 +1082,10 @@
     ink "^3.0.9"
     react "^16.14.0"
 
-"@beemo/core@2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@beemo/core/-/core-2.0.1.tgz#cd12e772fad15732fec84b2f6b897eddcadfcc3c"
-  integrity sha512-i/0K95zqMbO13k6HjK138BOwUBTDVOsiRga+/a6mFaUIuWcnzkCRaJEE9XOPVVb2AC+QQ7c7QaWybdQRe4LFkw==
+"@beemo/core@2.0.2":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@beemo/core/-/core-2.0.2.tgz#86c9e42eb4ae0b4706cdaf9fdeabc7f59888f1b9"
+  integrity sha512-/jB8ZDLEyQr0IFG9W4kLR/kN24CjtbvyAWDLGU4YAPrjDjJ0j+FpN8DMnVR1u+E6ac8obfkptu37K5tleGuzRw==
   dependencies:
     "@boost/args" "^2.3.3"
     "@boost/common" "^2.8.1"
