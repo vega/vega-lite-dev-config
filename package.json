@@ -27,36 +27,40 @@
     "beemo": "./bin/beemo.js"
   },
   "dependencies": {
-    "@babel/core": "^7.14.6",
-    "@babel/preset-env": "^7.14.7",
-    "@babel/preset-typescript": "^7.14.5",
-    "@beemo/cli": "2.0.0",
-    "@beemo/core": "2.0.0",
-    "@beemo/driver-babel": "2.0.0",
-    "@beemo/driver-eslint": "2.0.0",
-    "@beemo/driver-jest": "2.0.0",
-    "@beemo/driver-prettier": "2.0.0",
-    "@beemo/driver-typescript": "2.0.0",
-    "@types/jest": "^26.0.24",
-    "@typescript-eslint/eslint-plugin": "^4.28.4",
-    "@typescript-eslint/parser": "^4.28.4",
-    "babel-jest": "^27.0.6",
-    "eslint": "^7.31.0",
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6",
+    "@babel/preset-typescript": "^7.15.0",
+    "@beemo/cli": "2.0.2",
+    "@beemo/core": "2.1.0",
+    "@beemo/driver-babel": "2.0.2",
+    "@beemo/driver-eslint": "2.0.1",
+    "@beemo/driver-jest": "2.0.1",
+    "@beemo/driver-prettier": "2.0.2",
+    "@beemo/driver-typescript": "2.0.1",
+    "@types/eslint": "^7.28.0",
+    "@types/jest": "^27.0.1",
+    "@typescript-eslint/eslint-plugin": "^4.31.1",
+    "@typescript-eslint/parser": "^4.31.1",
+    "babel-jest": "^27.2.0",
+    "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-jest": "^24.3.6",
-    "eslint-plugin-prettier": "^3.4.0",
-    "eslint-plugin-react": "^7.24.0",
-    "jest": "^27.0.6",
-    "prettier": "^2.3.2",
-    "typescript": "^4.3.5"
+    "eslint-plugin-jest": "^24.4.2",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.25.2",
+    "jest": "^27.2.0",
+    "prettier": "^2.4.1",
+    "typescript": "^4.4.3"
   },
   "devDependencies": {
-    "@types/eslint": "^7.28.0",
-    "@types/node": "^16.3.3"
+    "@auto-it/conventional-commits": "^10.32.0",
+    "@auto-it/first-time-contributor": "^10.32.0",
+    "@types/node": "^15.4.5",
+    "auto": "^10.32.0"
   },
   "scripts": {
     "prepare": "beemo create-config",
     "lint": "beemo prettier --check './configs/*.ts'",
-    "format": "beemo prettier --write './configs/*.ts'"
+    "format": "beemo prettier --write './configs/*.ts'",
+    "release": "yarn prepare && auto shipit"
   }
 }

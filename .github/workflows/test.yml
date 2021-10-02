@@ -1,6 +1,12 @@
 name: Test
 
-on: [push]
+on:
+  push:
+    branches:
+      - next
+  pull_request:
+    branches:
+      - next
 
 jobs:
   test:
@@ -16,7 +22,7 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Setup Node ${{ matrix.node-version }}
-        uses: actions/setup-node@v2.2.0
+        uses: actions/setup-node@v2.4.0
         with:
           node-version: ${{ matrix.node-version }}
 
