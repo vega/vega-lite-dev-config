@@ -1,3 +1,26 @@
+# v0.19.0 (Thu Oct 28 2021)
+
+#### 🚀 Enhancement
+
+- feat: new node types [#628](https://github.com/vega/vega-lite-dev-config/pull/628) ([@domoritz](https://github.com/domoritz))
+
+#### 🐛 Bug Fix
+
+- ci: don't specify node version [#625](https://github.com/vega/vega-lite-dev-config/pull/625) ([@domoritz](https://github.com/domoritz))
+- chore: upgrade deps [#624](https://github.com/vega/vega-lite-dev-config/pull/624) ([@domoritz](https://github.com/domoritz))
+
+#### 🔩 Dependency Updates
+
+- chore(deps): bump babel-jest from 27.2.0 to 27.2.4 [#623](https://github.com/vega/vega-lite-dev-config/pull/623) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump actions/setup-node from 2.4.0 to 2.4.1 [#612](https://github.com/vega/vega-lite-dev-config/pull/612) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+
+#### Authors: 2
+
+- [@dependabot[bot]](https://github.com/dependabot[bot])
+- Dominik Moritz ([@domoritz](https://github.com/domoritz))
+
+---
+
 # v0.18.1 (Sat Oct 02 2021)
 
 :tada: This release contains work from a new contributor! :tada:
