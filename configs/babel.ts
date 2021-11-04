@@ -8,7 +8,7 @@ const {babel = {jest: true}} = (tool.config as ConfigFile<Settings>).settings;
 // Used only for jest
 const config: BabelConfig = babel.jest
   ? {
-      presets: [['@babel/preset-env', {targets: {node: 'current'}}], '@babel/preset-typescript'],
+      presets: [['@babel/env', {targets: {node: 'current'}}], '@babel/typescript'],
     }
   : {
       // TODO
