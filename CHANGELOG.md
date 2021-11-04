@@ -1,3 +1,24 @@
+# v0.20.0 (Thu Nov 04 2021)
+
+#### 🚀 Enhancement
+
+- feat: simplify babel config [#635](https://github.com/vega/vega-lite-dev-config/pull/635) ([@domoritz](https://github.com/domoritz))
+
+#### 🔩 Dependency Updates
+
+- chore(deps): bump @babel/core from 7.15.8 to 7.16.0 [#630](https://github.com/vega/vega-lite-dev-config/pull/630) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump @babel/preset-typescript from 7.15.0 to 7.16.0 [#632](https://github.com/vega/vega-lite-dev-config/pull/632) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump @typescript-eslint/eslint-plugin from 5.2.0 to 5.3.0 [#631](https://github.com/vega/vega-lite-dev-config/pull/631) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump @babel/preset-env from 7.15.8 to 7.16.0 [#633](https://github.com/vega/vega-lite-dev-config/pull/633) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump @typescript-eslint/parser from 5.2.0 to 5.3.0 [#634](https://github.com/vega/vega-lite-dev-config/pull/634) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+
+#### Authors: 2
+
+- [@dependabot[bot]](https://github.com/dependabot[bot])
+- Dominik Moritz ([@domoritz](https://github.com/domoritz))
+
+---
+
 # v0.19.0 (Thu Oct 28 2021)
 
 #### 🚀 Enhancement
