@@ -1162,10 +1162,10 @@
     "@boost/event" "^3.0.0"
     "@types/eslint" "^7.28.2"
 
-"@beemo/driver-jest@2.0.2":
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/@beemo/driver-jest/-/driver-jest-2.0.2.tgz#774e6e81ec420804643c999aba2fa653e4bc5db3"
-  integrity sha512-Px82rKwCcTinYvJ0E66LsCvczVnu2VLQCUxa0zah190XroYRpuZn8WG0TTonGaZKQaauogZW+E9ieyIy2F51HA==
+"@beemo/driver-jest@2.0.3":
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/@beemo/driver-jest/-/driver-jest-2.0.3.tgz#e10bb16ff959511ba106644e8edcb2ef60ffcaa6"
+  integrity sha512-9gZYtJBBbIMg6JkXWE4Dv+MRucSxxj32SnVyeB7JY5DN6kVhyUHAc3rReMNLamz4AlitKTSzX81H6rWzewpevw==
   dependencies:
     "@jest/types" "^27.2.5"
 
