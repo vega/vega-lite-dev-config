@@ -1110,12 +1110,12 @@
   dependencies:
     "@jest/types" "^27.2.5"
 
-"@beemo/driver-prettier@2.0.3":
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/@beemo/driver-prettier/-/driver-prettier-2.0.3.tgz#e7bb1dc38af9526b15616dceeb8905551f21fa39"
-  integrity sha512-ULzMPfgWIbYkRqaBO/vjRrZ6/nHY7AZoMppsKxKwhW+/QsznJU/qCEy/IJ1j7J+5Bgr5M5VDC4DPl+Q66qhNPQ==
+"@beemo/driver-prettier@2.0.4":
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/@beemo/driver-prettier/-/driver-prettier-2.0.4.tgz#66029b3a905334f5c060c6ba024a6cd27d847d35"
+  integrity sha512-Jq8A9qVTBKM6fSASB7fkOu1+1qqsqsPUqi54fhfdxBJwTwXo2+a8C1G55xwDjGev3dV6Ey1qUloEDKJsnpujeA==
   dependencies:
-    "@boost/event" "^2.3.3"
+    "@boost/event" "^3.0.0"
     "@types/prettier" "^2.4.1"
 
 "@beemo/driver-typescript@2.0.1":
@@ -1198,10 +1198,24 @@
   dependencies:
     "@boost/internal" "^2.2.3"
 
+"@boost/event@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@boost/event/-/event-3.0.0.tgz#2250545dbf9ace9a5f7723c49ef98843d6d4d69e"
+  integrity sha512-6ca817aFzUeTfQjgkdD5amay/V1GNc22A8pfQlSzs40QzD7mA9Ky2sX1Ue/5l/zu8kohuCzqhL/qQrpXnzqdgw==
+  dependencies:
+    "@boost/internal" "^3.0.0"
+
 "@boost/internal@^2.2.3":
   version "2.2.3"
   resolved "https://registry.yarnpkg.com/@boost/internal/-/internal-2.2.3.tgz#140eab861b04d8740cc01593dbd444eaaf360a5c"
   integrity sha512-Iws7tmXN/ta9bzcWTKCxFRaeCxtpjRgN0ABhWEoJnXgQjHhjs1PjmbkPK4PfKbQQW/RhbLMgKLz0jLdtwbK0oA==
+  dependencies:
+    debug "^4.3.2"
+
+"@boost/internal@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@boost/internal/-/internal-3.0.0.tgz#58ef8fa15f4254ec90ca761aba37986bcba9bee3"
+  integrity sha512-5nZeL16ETj1tLCnFeUMsheSQYvnINU8m1HZv/OXqvppHYgsnvQ+ipt0bDOZjNHabdQcJYTj0tY6u8aacsncyMQ==
   dependencies:
     debug "^4.3.2"
 
