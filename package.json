@@ -54,7 +54,7 @@
   "devDependencies": {
     "@auto-it/conventional-commits": "^10.32.2",
     "@auto-it/first-time-contributor": "^10.32.2",
-    "@types/node": "^16.11.6",
+    "@types/node": "^17.0.6",
     "auto": "^10.32.2"
   },
   "scripts": {
