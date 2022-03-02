@@ -1128,12 +1128,12 @@
     "@boost/event" "^3.0.0"
     "@types/eslint" "^8.2.1"
 
-"@beemo/driver-jest@2.0.4":
-  version "2.0.4"
-  resolved "https://registry.yarnpkg.com/@beemo/driver-jest/-/driver-jest-2.0.4.tgz#ca2b7e503f13e9ecdfc692199bfd6846ba56c018"
-  integrity sha512-u3pTHGl9HH6/EwydsQ3n+hjrJkA8/JQKWbiKmX6rFnTm3UZoZ8cZ4wxwDiCysMWYzoyiPxASEe6yQ6b4+HnUPw==
+"@beemo/driver-jest@2.0.5":
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/@beemo/driver-jest/-/driver-jest-2.0.5.tgz#88a357990e1fac84929fe92c10f94e9c52879143"
+  integrity sha512-3mBkwcpWC6Ca8tdL63Y5hytFlDqC8hDBPy/NJ06UCQue5e/f8y1d/Gl6aiet1UxhehjvdNGyGqXAikmJ2zprcA==
   dependencies:
-    "@jest/types" "^27.4.2"
+    "@jest/types" "^27.5.1"
 
 "@beemo/driver-prettier@2.0.5":
   version "2.0.5"
