@@ -1127,13 +1127,13 @@
   dependencies:
     rimraf "^3.0.2"
 
-"@beemo/driver-eslint@2.0.4":
-  version "2.0.4"
-  resolved "https://registry.yarnpkg.com/@beemo/driver-eslint/-/driver-eslint-2.0.4.tgz#f52393a4e2f579d658a0e80ca6421091d4db1e27"
-  integrity sha512-wvBYKgUVRikNeHwkP7Swez4pptiERrqMyXv137SiRaZ/bQV7zPVLyZMaUFLdsA/ulmaffRsBARDh5wqHFq/+og==
+"@beemo/driver-eslint@2.0.5":
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/@beemo/driver-eslint/-/driver-eslint-2.0.5.tgz#200f98a4b4c5eda31bfe43de870a5fa69acf691a"
+  integrity sha512-X8GJNQWIhzpH9JvZRIyabQSp7+0BBVnu4phlBqLrKe47iVwEJ00C3sY26fTSwnjrlUfuSaQWC/7rHV4fF5rYag==
   dependencies:
-    "@boost/event" "^3.0.0"
-    "@types/eslint" "^8.2.1"
+    "@boost/event" "^3.0.1"
+    "@types/eslint" "^8.4.1"
 
 "@beemo/driver-jest@2.0.5":
   version "2.0.5"
@@ -1770,7 +1770,7 @@
   dependencies:
     "@types/ms" "*"
 
-"@types/eslint@^8.2.1":
+"@types/eslint@^8.2.1", "@types/eslint@^8.4.1":
   version "8.4.1"
   resolved "https://registry.yarnpkg.com/@types/eslint/-/eslint-8.4.1.tgz#c48251553e8759db9e656de3efc846954ac32304"
   integrity sha512-GE44+DNEyxxh2Kc6ro/VkIj+9ma0pO0bwv9+uHSyBrikYOHr8zYcdPvnBOp1aw8s+CjRvuSx7CyWqRrNFQ59mA==
