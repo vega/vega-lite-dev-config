@@ -1150,12 +1150,12 @@
     "@boost/event" "^3.0.1"
     "@types/prettier" "^2.4.4"
 
-"@beemo/driver-typescript@2.1.1":
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/@beemo/driver-typescript/-/driver-typescript-2.1.1.tgz#5f62f93693764d1cc8fac46b70b61a26654922f2"
-  integrity sha512-Cbus4PKyTUg9s+wR7DE9ty1VQ6L+6yjsujgjzQZxWzOa56o+vWyZCvlvYjDfPgjMCwL6e1dbyUdxOZzXYK7KKQ==
+"@beemo/driver-typescript@2.1.2":
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/@beemo/driver-typescript/-/driver-typescript-2.1.2.tgz#8b004b256814c8769b41fb60399c1438652af8e9"
+  integrity sha512-oweBlz8fIImvO5QBMSUSHk1sybkhOifDGP4giupMZisNXrn+zjmE/MAl3tZtWmd7f3rtt39hPLeVM8/3pe66zg==
   dependencies:
-    "@boost/event" "^3.0.0"
+    "@boost/event" "^3.0.1"
     rimraf "^3.0.2"
 
 "@boost/args@^3.0.1":
@@ -1225,7 +1225,7 @@
   resolved "https://registry.yarnpkg.com/@boost/decorators/-/decorators-3.0.0.tgz#d7d5b09c5eac4551333db1c525517c93d58b521c"
   integrity sha512-ShIwBx9mUCvuRjhYieXvBq+Ab/nFZ09+c73vZRCVrkNJUhluyQW3AayH6FeI8NV4EIte+WZlpcbS1rZXwQoikg==
 
-"@boost/event@^3.0.0", "@boost/event@^3.0.1":
+"@boost/event@^3.0.1":
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/@boost/event/-/event-3.0.1.tgz#8bf6f3d73c9f2970fb72922c547a1b37be88bd18"
   integrity sha512-oCIuyn+g/nNbfZtk+EYVipAY4vZGb7piwkJ11CGzvROFzG8dy4FOb4iTaaXRCog1EFvQO1Gt9IuVy4G1Mx7+Mg==
